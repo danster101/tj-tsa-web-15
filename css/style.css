@@ -1,0 +1,63 @@
+/* line 8, C:/Users/Matthew/Dropbox/Programming/github/tj-tsa-web-15/css/style.scss */
+* {
+  box-sizing: border-box; }
+
+/* line 13, C:/Users/Matthew/Dropbox/Programming/github/tj-tsa-web-15/css/style.scss */
+html, body {
+  margin: 0px; }
+
+/* line 22, C:/Users/Matthew/Dropbox/Programming/github/tj-tsa-web-15/css/style.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Martel Sans", sans-serif; }
+
+/* line 26, C:/Users/Matthew/Dropbox/Programming/github/tj-tsa-web-15/css/style.scss */
+header {
+  background: #1E88E5;
+  position: relative;
+  padding: 1.4em 0px;
+  margin-bottom: 2.4em; }
+  /* line 32, C:/Users/Matthew/Dropbox/Programming/github/tj-tsa-web-15/css/style.scss */
+  header h1 {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 4em;
+    margin: 0px; }
+  /* line 39, C:/Users/Matthew/Dropbox/Programming/github/tj-tsa-web-15/css/style.scss */
+  header #header-badge {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    position: absolute;
+    left: 50%;
+    bottom: 0px;
+    transform: translate(-50%, 50%);
+    background: #1E88E5; }
+
+/* line 51, C:/Users/Matthew/Dropbox/Programming/github/tj-tsa-web-15/css/style.scss */
+main {
+  float: left;
+  width: 66.66667%;
+  margin-left: 8.33333%; }
+
+/* line 57, C:/Users/Matthew/Dropbox/Programming/github/tj-tsa-web-15/css/style.scss */
+nav {
+  float: right;
+  width: 16.66667%;
+  margin-right: 8.33333%; }
+
+/* line 63, C:/Users/Matthew/Dropbox/Programming/github/tj-tsa-web-15/css/style.scss */
+article {
+  padding: 1em; }
+  /* line 66, C:/Users/Matthew/Dropbox/Programming/github/tj-tsa-web-15/css/style.scss */
+  article h2 {
+    color: rgba(30, 136, 229, 0.87);
+    font-size: 2em;
+    margin: 0px 0px 0px 2em; }
+  /* line 72, C:/Users/Matthew/Dropbox/Programming/github/tj-tsa-web-15/css/style.scss */
+  article p {
+    font-family: "Magra", sans-serif;
+    font-size: 1.2em;
+    line-height: 1.4em;
+    color: rgba(0, 0, 0, 0.87); }
+
+/*# sourceMappingURL=style.css.map */
