@@ -12,19 +12,20 @@
 <header>
 	<h1>TJHSST TSA</h1>
 	<img id="header-badge" src="images/header-badge.svg" />
+	<nav>
+		<ul>
+			<li><span class="fa nav-icon fa-home"></span>Home</li>
+			<li><span class="fa nav-icon fa-users"></span>Our Chapter</li>
+			<li><?php print(file_get_contents("images/tsa-simplified.svg")); ?>Technology Student Association</li>
+			<li><span class="fa nav-icon fa-book"></span>Projects</li>
+		</ul>
+	</nav>
 </header>
 <?php } ?>
 
 <?php function make_sidebar(){ ?>
 <section id="sidebar">
-	<nav>
-		<ul>
-			<li><span class="fa nav-icon fa-home"></span>Home</li>
-			<li><span class="fa nav-icon fa-users"></span>Our Chapter</li>
-			<li><img class="nav-icon" src="images/tsa-simplified-black.svg"></span>Technology Student Association</li>
-			<li><span class="fa nav-icon fa-book"></span>Projects</li>
-		</ul>
-	</nav>
+
 </section>
 <?php } ?>
 

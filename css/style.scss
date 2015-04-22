@@ -1,5 +1,5 @@
-$primary: #1E88E5;
-$primary-fade: rgba(30, 136, 229, .87);
+$primary: #005DAA;
+$primary-fade: rgba($primary, .9);
 $white: #FFFFFF;
 $black-dark: rgba(0, 0, 0, .9);
 $black-fade: rgba(0, 0, 0, .65);
@@ -45,11 +45,11 @@ header {
 	#header-badge {
 		width: 100px;
 		height: 100px;
-		border-radius: 50px;
+		border-radius: 50px 50px 50px 0px;
 		position: absolute;
-		left: 50%;
+		left: 0px;
 		bottom: 0px;
-		transform: translate(-50%, 50%);
+		transform: translate(0px, 50%);
 		background: $primary;
 	}
 }
@@ -60,7 +60,7 @@ main {
 	margin-left: 1 / 12 * 100%;
 }
 
-nav {
+#sidebar {
 	float: right;
 	width: 3 / 12 * 100%;
 	margin-right: 1 / 12 * 100%;
@@ -86,15 +86,22 @@ article {
 nav {
 	font-family: $body-font-stack;
 	font-size: 1em;
-	color: $black-dark;
+	color: $white;
+	fill: $white;
+	position: absolute;
+	bottom: .4em;
+	left: 110px;
 
 	ul {
 		list-style-type: none;
+		display: inline;
+		margin: 0px;
+		padding: 0px;
 
 		li {
-			margin: 1em 0px;
+			margin-right: 1em;
 			padding-left: 2.4em;
-			display: flex;
+			display: inline;
 			align-items: center;
 			position: relative;
 
@@ -106,14 +113,14 @@ nav {
 				position: absolute;
 				left: 0px;
 				font-size: 1.4em;
-				
+
 				&.fa {
 					width: 1 / 1.4 * 2em;
 					text-align: center;
 				}
 			}
-			
-			img.nav-icon {
+
+			svg.nav-icon {
 				max-height: 1.4em;
 				max-width: 1 / 1.4 * 2em;
 			}
