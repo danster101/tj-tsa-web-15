@@ -1,6 +1,6 @@
 <?php function make_head($title){ ?>
 <head>
-	<title><?php print($title); ?></title>
+	<title><?php print($title); ?> &mdash; TJHSST TSA</title>
 
 	<link rel="stylesheet" href="css/reset.css" type="text/css" />
 	<link rel="stylesheet" type="text/css" href="css/style.css" />
@@ -20,6 +20,10 @@
 					$("body").removeClass("scroll-small-header");
 				}
 			});
+			
+			$("[link]").click(function(){
+				window.location = "/tsa" + $(this).attr("link");
+			});
 		});
 	</script>
 </head>
@@ -31,10 +35,10 @@
 	<img id="header-badge" src="images/header-badge.svg" />
 	<nav>
 		<ul>
-			<li><span class="fa nav-icon fa-home"></span>Home</li>
-			<li><span class="fa nav-icon fa-users"></span>Our Chapter</li>
-			<li><?php print(file_get_contents("images/tsa-simplified.svg")); ?>Technology Student Association</li>
-			<li><span class="fa nav-icon fa-book"></span>Projects</li>
+			<li link="/"><span class="fa nav-icon fa-home"></span>Home</li>
+			<li link="/chapter"><span class="fa nav-icon fa-users"></span>Our Chapter</li>
+			<li link="/tsa"><?php print(file_get_contents("images/tsa-simplified.svg")); ?>Technology Student Association</li>
+			<li link="/projects"><span class="fa nav-icon fa-book"></span>Projects</li>
 		</ul>
 	</nav>
 </header>

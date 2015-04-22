@@ -58,7 +58,7 @@ header {
 
 body.scroll-small-header {
 	margin-top: 12em;
-	
+
 	header {
 		position: fixed;
 		top: 0px;
@@ -91,6 +91,12 @@ main {
 	margin-left: 1 / 12 * 100%;
 }
 
+h2 {
+	font-size: 2.4em;
+	color: $black-dark;
+	margin: 0px 0px 0px 1em;
+}
+
 #sidebar {
 	float: right;
 	width: 3 / 12 * 100%;
@@ -100,18 +106,18 @@ main {
 article {
 	padding: 1em;
 
-	h2 {
+	h3 {
 		color: $primary-fade;
 		font-size: 2em;
 		margin: 0px 0px 0px 2em;
 	}
+}
 
-	p {
-		font-family: $body-font-stack;
-		font-size: 1.2em;
-		line-height: 1.4em;
-		color: $black-dark;
-	}
+p {
+	font-family: $body-font-stack;
+	font-size: 1.2em;
+	line-height: 1.4em;
+	color: $black-dark;
 }
 
 nav {
