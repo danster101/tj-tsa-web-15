@@ -38,6 +38,7 @@ header {
 	position: relative;
 	padding: 1.4em 0px .4em;
 	margin-bottom: 2.4em;
+	z-index: 10;
 
 	h1 {
 		color: $white;
@@ -183,5 +184,26 @@ nav {
 				background: $white-light;
 			}
 		}
+	}
+}
+
+.blur {
+	filter: blur(4px);
+	-webkit-filter: blur(4px);
+	clip-path: inset(0px, 0px, 0px, 0px);
+}
+
+.member-info-widget {
+	width: 720px;
+	height: 540px;
+	position: relative;
+	overflow: hidden;
+	
+	img {
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		right: 0px;
+		bottom: 0px;
 	}
 }

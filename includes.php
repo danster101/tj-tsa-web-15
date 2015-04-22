@@ -2,14 +2,14 @@
 <head>
 	<title><?php print($title); ?> &mdash; TJHSST TSA</title>
 
-	<link rel="stylesheet" href="css/reset.css" type="text/css" />
-	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link rel="stylesheet" type="text/css" href="/tsa/css/reset.css" />
+	<link rel="stylesheet" type="text/css" href="/tsa/css/style.css" />
 
 	<link href="//fonts.googleapis.com/css?family=Martel+Sans:800" rel="stylesheet" type="text/css" />
 	<link href="//fonts.googleapis.com/css?family=Magra:400,700" rel="stylesheet" type="text/css" />
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
 	<script>
 		$(document).ready(function(){
@@ -32,13 +32,13 @@
 <?php function make_header(){ ?>
 <header>
 	<h1>TJHSST TSA</h1>
-	<img id="header-badge" src="images/header-badge.svg" />
+	<img id="header-badge" src="/tsa/images/header-badge.svg" />
 	<nav>
 		<ul>
 			<li link="/"><span class="fa nav-icon fa-home"></span>Home</li>
 			<li link="/chapter"><span class="fa nav-icon fa-users"></span>The Chapter</li>
 			<li link="/school"><span class="fa nav-icon fa-institution"></span>The School</li>
-			<li link="/tsa"><?php print(file_get_contents("images/tsa-simplified.svg")); ?>The Organization</li>
+			<li link="/tsa"><?php print(file_get_contents("/afs/csl.tjhsst.edu/web/activities/tsa/images/tsa-simplified.svg")); ?>The Organization</li>
 			<li link="/projects"><span class="fa nav-icon fa-book"></span>Projects</li>
 		</ul>
 	</nav>
