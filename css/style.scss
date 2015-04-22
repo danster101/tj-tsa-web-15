@@ -1,6 +1,8 @@
 $primary: #005DAA;
 $primary-fade: rgba($primary, .9);
 $white: #FFFFFF;
+$white-light: rgba($white, .1);
+$white-transparent: rgba($white, 0);
 $black-dark: rgba(0, 0, 0, .9);
 $black-fade: rgba(0, 0, 0, .65);
 $header-font-stack: "Martel Sans", sans-serif;
@@ -32,7 +34,7 @@ h6 {
 header {
 	background: $primary;
 	position: relative;
-	padding: 1.4em 0px;
+	padding: 1.4em 0px .4em;
 	margin-bottom: 2.4em;
 
 	h1 {
@@ -51,6 +53,35 @@ header {
 		bottom: 0px;
 		transform: translate(0px, 50%);
 		background: $primary;
+	}
+}
+
+body.scroll-small-header {
+	margin-top: 12em;
+	
+	header {
+		position: fixed;
+		top: 0px;
+		width: 100%;
+		padding: .4em 0px 0px;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+
+		h1 {
+			display: inline-flex;
+			align-items: center;
+			font-size: 2em;
+			width: 6.4em;
+			height: 100%;
+			margin-left: 110px;
+		}
+
+		nav {
+			margin-left: 0px;
+			flex-grow: 1;
+			width: 0px;
+		}
 	}
 }
 
@@ -88,30 +119,30 @@ nav {
 	font-size: 1em;
 	color: $white;
 	fill: $white;
-	position: absolute;
-	bottom: .4em;
-	left: 110px;
+	margin-left: 110px;
 
 	ul {
 		list-style-type: none;
-		display: inline;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
 		margin: 0px;
 		padding: 0px;
 
 		li {
 			margin-right: 1em;
-			padding-left: 2.4em;
-			display: inline;
+			padding: .2em .4em;
+			border-radius: .2em;
+			display: inline-flex;
 			align-items: center;
 			position: relative;
+			background: $white-transparent;
 
 			cursor: pointer;
 			transition-duration: $transition-fast;
 			opacity: $fade;
 
 			.nav-icon {
-				position: absolute;
-				left: 0px;
 				font-size: 1.4em;
 
 				&.fa {
@@ -121,12 +152,14 @@ nav {
 			}
 
 			svg.nav-icon {
-				max-height: 1.4em;
-				max-width: 1 / 1.4 * 2em;
+				width: 1 / 1.4 * 2em;
+				height: 1.4em;
+				margin-right: .2em;
 			}
 
 			&:hover{
 				opacity: 1;
+				background: $white-light;
 			}
 		}
 	}
