@@ -36,8 +36,9 @@
 	<nav>
 		<ul>
 			<li link="/"><span class="fa nav-icon fa-home"></span>Home</li>
-			<li link="/chapter"><span class="fa nav-icon fa-users"></span>Our Chapter</li>
-			<li link="/tsa"><?php print(file_get_contents("images/tsa-simplified.svg")); ?>Technology Student Association</li>
+			<li link="/chapter"><span class="fa nav-icon fa-users"></span>The Chapter</li>
+			<li link="/school"><span class="fa nav-icon fa-institution"></span>The School</li>
+			<li link="/tsa"><?php print(file_get_contents("images/tsa-simplified.svg")); ?>The Organization</li>
 			<li link="/projects"><span class="fa nav-icon fa-book"></span>Projects</li>
 		</ul>
 	</nav>
@@ -46,7 +47,14 @@
 
 <?php function make_sidebar(){ ?>
 <section id="sidebar">
-
+	<article>
+		<h3>This is in the sidebar</h3>
+		<p>It looked lonely, so I put this here.</p>
+	</article>
+	<article>
+		<h3>Tweets</h3>
+		<?php include("widgets/twitter.php"); ?>
+	</article>
 </section>
 <?php } ?>
 

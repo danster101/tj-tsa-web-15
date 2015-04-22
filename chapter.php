@@ -5,7 +5,7 @@
 		<?php make_header(); ?>
 		<?php make_sidebar(); ?>
 		<main>
-			<h2>Our Chapter</h2>
+			<h2>The Chapter</h2>
 			
 			<p>Some content goes here.  Probably sub-pages.</p>
 		</main>

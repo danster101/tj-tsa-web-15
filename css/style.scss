@@ -1,5 +1,7 @@
 $primary: #005DAA;
 $primary-fade: rgba($primary, .9);
+$secondary: #EE3524;
+$secondary-fade: rgba($secondary, .9);
 $white: #FFFFFF;
 $white-light: rgba($white, .1);
 $white-transparent: rgba($white, 0);
@@ -89,6 +91,17 @@ main {
 	float: left;
 	width: 7 / 12 * 100%;
 	margin-left: 1 / 12 * 100%;
+	margin-right: 1 / 12 * 100%;
+
+	article {
+		padding: 1em;
+
+		h3 {
+			color: $primary-fade;
+			font-size: 2em;
+			margin: 0px 0px 0px 2em;
+		}
+	}
 }
 
 h2 {
@@ -99,17 +112,20 @@ h2 {
 
 #sidebar {
 	float: right;
-	width: 3 / 12 * 100%;
-	margin-right: 1 / 12 * 100%;
-}
+	width: 5 / 24 * 100%;
+	margin-right: 1 / 24 * 100%;
 
-article {
-	padding: 1em;
+	article {
+		padding: 1em;
 
-	h3 {
-		color: $primary-fade;
-		font-size: 2em;
-		margin: 0px 0px 0px 2em;
+		h3 {
+			color: $secondary-fade;
+			font-size: 1.6em;
+		}
+		
+		p {
+			font-size: 1em;
+		}
 	}
 }
 
@@ -136,7 +152,7 @@ nav {
 		padding: 0px;
 
 		li {
-			margin-right: 1em;
+			margin-right: .8em;
 			padding: .2em .4em;
 			border-radius: .2em;
 			display: inline-flex;
@@ -150,9 +166,9 @@ nav {
 
 			.nav-icon {
 				font-size: 1.4em;
+				margin-right: .4em;
 
 				&.fa {
-					width: 1 / 1.4 * 2em;
 					text-align: center;
 				}
 			}
@@ -160,7 +176,6 @@ nav {
 			svg.nav-icon {
 				width: 1 / 1.4 * 2em;
 				height: 1.4em;
-				margin-right: .2em;
 			}
 
 			&:hover{
