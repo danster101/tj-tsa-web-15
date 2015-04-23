@@ -14,13 +14,13 @@
 	<script>
 		$(document).ready(function(){
 			$(window).scroll(function(e){
-				if($(window).scrollTop() > $("header h1").height()){
+				if($(window).scrollTop() > 24){
 					$("body").addClass("scroll-small-header");
 				} else {
 					$("body").removeClass("scroll-small-header");
 				}
 			});
-			
+
 			$("[link]").click(function(){
 				window.location = "/tsa" + $(this).attr("link");
 			});
@@ -33,15 +33,18 @@
 <header>
 	<h1>TJHSST TSA</h1>
 	<img id="header-badge" src="/tsa/images/header-badge.svg" />
-	<nav>
-		<ul>
-			<li link="/"><span class="fa nav-icon fa-home"></span>Home</li>
-			<li link="/chapter"><span class="fa nav-icon fa-users"></span>The Chapter</li>
-			<li link="/school"><span class="fa nav-icon fa-institution"></span>The School</li>
-			<li link="/tsa"><?php print(file_get_contents("/afs/csl.tjhsst.edu/web/activities/tsa/images/tsa-simplified.svg")); ?>The Organization</li>
-			<li link="/projects"><span class="fa nav-icon fa-book"></span>Projects</li>
-		</ul>
-	</nav>
+	<div class="flex">
+		<div class="title-secondary">TJHSST TSA</div>
+		<nav>
+			<ul>
+				<li link="/"><span class="fa nav-icon fa-home"></span>Home</li>
+				<li link="/chapter"><span class="fa nav-icon fa-users"></span>The Chapter</li>
+				<li link="/school"><span class="fa nav-icon fa-institution"></span>The School</li>
+				<li link="/tsa"><?php print(file_get_contents("/afs/csl.tjhsst.edu/web/activities/tsa/images/tsa-simplified.svg")); ?>The Organization</li>
+				<li link="/projects"><span class="fa nav-icon fa-book"></span>Projects</li>
+			</ul>
+		</nav>
+	</div>
 </header>
 <?php } ?>
 
