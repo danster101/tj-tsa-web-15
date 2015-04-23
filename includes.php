@@ -13,8 +13,9 @@
 
 	<script>
 		$(document).ready(function(){
+			var topperHeight = parseFloat($("body").css("font-size").slice(0, -2)) * 8;
 			$(window).scroll(function(e){
-				if($(window).scrollTop() > $("header .flex").offset().top){
+				if($(window).scrollTop() > topperHeight){
 					$("body").addClass("scroll-small-header");
 				} else {
 					$("body").removeClass("scroll-small-header");
