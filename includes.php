@@ -24,6 +24,12 @@
 			$("[link]").click(function(){
 				window.location = "/tsa" + $(this).attr("link");
 			});
+			
+			$(".return-to-top").click(function(){
+				$("html, body").animate({
+					scrollTop: 0
+				}, 1000);
+			});
 		});
 	</script>
 </head>
@@ -44,6 +50,7 @@
 				<li link="/projects"><span class="fa nav-icon fa-book"></span>Projects</li>
 			</ul>
 		</nav>
+		<span class="fa return-to-top fa-arrow-circle-up"></span>
 	</div>
 </header>
 <?php } ?>

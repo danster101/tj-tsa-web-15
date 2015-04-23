@@ -88,7 +88,7 @@ header {
 			position: relative;
 			top: -2em;
 			opacity: 0;
-			
+
 			transition: width $transition-medium $transition-medium,
 				opacity 0ms $transition-medium,
 				top 2*$transition-medium, $transition-medium;
@@ -106,6 +106,15 @@ body.scroll-small-header {
 
 	header {
 		top: -8em;
+
+		.return-to-top {
+			opacity: $fade;
+			cursor: pointer;
+
+			&:hover {
+				opacity: 1;
+			}
+		}
 	}
 
 	.title-secondary {
@@ -114,36 +123,13 @@ body.scroll-small-header {
 		top: 0em;
 		opacity: 1;
 	}
-	/*
-	header {
-	position: fixed;
-	top: 0px;
-	width: 100%;
-	padding: .4em 0px 0px;
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-
-	h1 {
-	display: inline-flex;
-	align-items: center;
-	font-size: 2em;
-	width: 6.4em;
-	height: 100%;
-	margin-left: 110px;
-}
-
-	nav {
-}
-}
-	*/
 }
 
 main {
 	float: left;
-	width: 7 / 12 * 100%;
+	width: 15 / 24 * 100%;
 	margin-left: 1 / 12 * 100%;
-	margin-right: 1 / 12 * 100%;
+	margin-right: 1 / 24 * 100%;
 
 	article {
 		padding: 1em;
@@ -235,6 +221,16 @@ nav {
 			}
 		}
 	}
+}
+
+.return-to-top {
+	color: $white;
+	padding: .6em .8em;
+	overflow: hidden;
+	text-align: center;
+	opacity: 0;
+	transition-duration: $transition-fast;
+	transition-delay: $transition-fast;
 }
 
 .blur {
