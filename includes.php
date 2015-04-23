@@ -14,7 +14,7 @@
 	<script>
 		$(document).ready(function(){
 			$(window).scroll(function(e){
-				if($(window).scrollTop() > $("header h1").height()){
+				if($(window).scrollTop() > $("header .flex").offset().top){
 					$("body").addClass("scroll-small-header");
 				} else {
 					$("body").removeClass("scroll-small-header");

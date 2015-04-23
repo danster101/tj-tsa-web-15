@@ -37,10 +37,14 @@ h6 {
 
 body {
 	margin-top: 12em;
+	-webkit-transition: margin-top $transition-medium;
 	transition: margin-top $transition-medium;
 }
 
 .flex {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
 	display: flex;
 }
 
@@ -70,6 +74,8 @@ header {
 		position: absolute;
 		left: 0px;
 		bottom: 0px;
+		-webkit-transform: translate(0px, 50%);
+		-ms-transform: translate(0px, 50%);
 		transform: translate(0px, 50%);
 		background: $primary;
 	}
@@ -89,6 +95,10 @@ header {
 			opacity: 0;
 			height: 1.4em;
 
+			-webkit-transition: width $transition-medium $transition-medium,
+				opacity 0ms $transition-medium,
+				top 2*$transition-medium, $transition-medium;
+
 			transition: width $transition-medium $transition-medium,
 				opacity 0ms $transition-medium,
 				top 2*$transition-medium, $transition-medium;
@@ -96,6 +106,9 @@ header {
 	}
 
 	nav {
+		-webkit-box-flex: 1;
+		-webkit-flex-grow: 1;
+		-ms-flex-positive: 1;
 		flex-grow: 1;
 		width: 0px;
 	}
@@ -181,8 +194,17 @@ nav {
 
 	ul {
 		list-style-type: none;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
 		display: flex;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: row;
+		-ms-flex-direction: row;
 		flex-direction: row;
+		-webkit-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
 		margin: 0px;
 		padding: 0px;
@@ -191,12 +213,19 @@ nav {
 			margin-right: .8em;
 			padding: .2em .4em;
 			border-radius: .2em;
+			display: -webkit-inline-box;
+			display: -webkit-inline-flex;
+			display: -ms-inline-flexbox;
 			display: inline-flex;
+			-webkit-box-align: center;
+			-webkit-align-items: center;
+			-ms-flex-align: center;
 			align-items: center;
 			position: relative;
 			background: $white-transparent;
 
 			cursor: pointer;
+			-webkit-transition-duration: $transition-fast;
 			transition-duration: $transition-fast;
 			opacity: $fade;
 
@@ -228,7 +257,9 @@ nav {
 	overflow: hidden;
 	text-align: center;
 	opacity: 0;
+	-webkit-transition-duration: $transition-fast;
 	transition-duration: $transition-fast;
+	-webkit-transition-delay: $transition-fast;
 	transition-delay: $transition-fast;
 }
 
@@ -249,9 +280,13 @@ nav {
 		top: 0px;
 		right: 0px;
 		bottom: 0px;
+		-webkit-clip-path: circle(100% at center);
 		clip-path: circle(100% at center);
+		-webkit-transition-delay: 200ms;
 		transition-delay: 200ms;
+		-webkit-transition-duration: $transition-medium;
 		transition-duration: $transition-medium;
+		-webkit-transition-timing-function: $ease-smooth;
 		transition-timing-function: $ease-smooth;
 	}
 
