@@ -14,7 +14,7 @@
 	<script>
 		$(document).ready(function(){
 			$(window).scroll(function(e){
-				if($(window).scrollTop() > 24){
+				if($(window).scrollTop() > $("header h1").height()){
 					$("body").addClass("scroll-small-header");
 				} else {
 					$("body").removeClass("scroll-small-header");

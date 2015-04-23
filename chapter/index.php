@@ -17,17 +17,15 @@
 		<script>
 			var data = [
 				{
-					left: 284,
-					right: 338,
-					top: 189,
-					bottom: 254,
+					cx: 310,
+					cy: 221,
+					radius: 32,
 					name: "Matthew Savage"
 				},
 				{
-					left: 208,
-					right: 258,
-					top: 175,
-					bottom: 237,
+					cx: 233,
+					cy: 206,
+					radius: 32,
 					name: "Kyle Herndon"
 				}
 			];
@@ -40,10 +38,9 @@
 					var x = e.pageX - $(this).offset().left;
 					var y = e.pageY - $(this).offset().top;
 					for(var i = 0; i < data.length; i++){
-						if(x >= data[i].left && x <= data[i].right && y <= data[i].bottom && y >= data[i].top){
-							var cx = (data[i].left + data[i].right)/2;
-							var cy = (data[i].top + data[i].bottom)/2;
-							var rule = "inset(" + data[i].top  + "px " + (width - data[i].right) + "px " + (height - data[i].bottom) + "px " + data[i].left + "px)";
+						if(Math.pow(x - data[i].cx, 2) + Math.pow(y - data[i].cy, 2) <= Math.pow(data[i].radius, 2)){
+							var rule = "circle(" + data[i].radius  + "px at " + data[i].cx + "px " + data[i].cy + "px)";
+							
 							$(".member-info-widget .sharp").css({
 								"clip-path": rule,
 								"-webkit-clip-path": rule
