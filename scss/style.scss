@@ -199,24 +199,25 @@ nav {
 	font-size: 1em;
 	color: $white;
 	fill: $white;
-	
-	&.page-subnav {
+
+	.multipage & {
 		color: $black-dark;
 		fill: $black-dark;
 		margin-bottom: 1em;
-		
-		ul li {
-			background: $secondary-transparent;
+		position: relative;
+
+		ul li.active {
+			opacity: 1;
+			color: $white;
 			
-			&:hover {
-				background: $secondary-medium;
-			}
-			
-			&.active {
-				background: $secondary;
-				opacity: 1;
-				color: $white;
-			}
+			transition: color $transition-medium $transition-medium, fill $transition-medium $transition-medium;
+		}
+
+		.nav-indicator {
+			position: absolute;
+			background: $secondary;
+			border-radius: .2em;
+			transition: $transition-medium;
 		}
 	}
 
@@ -256,7 +257,7 @@ nav {
 			-webkit-transition-duration: $transition-fast;
 			transition-duration: $transition-fast;
 			opacity: $fade;
-			
+
 			@extend .no-select;
 
 			.nav-icon {
@@ -331,7 +332,7 @@ nav {
 		overflow: hidden;
 		height: auto;
 		transition: $multipage-transition height $multipage-transition;
-		
+
 		&.hidden {
 			height: 0px;
 			transition: $multipage-transition height 0ms;
@@ -344,12 +345,12 @@ nav {
 		opacity: 1;
 		display: block;
 	}
-	
+
 	99% {
 		opacity: 0;
 		display: block;
 	}
-	
+
 	100% {
 		opacity: 0;
 		display: none;
@@ -357,12 +358,12 @@ nav {
 }
 
 .no-select {
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
 }
 
 [float=left] {
@@ -371,4 +372,8 @@ nav {
 
 [float=right] {
 	float: right;
+}
+
+.secondary {
+	opacity: $fade;
 }

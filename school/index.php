@@ -6,9 +6,9 @@
 		<?php make_sidebar(); ?>
 		<main>
 			<article class="multipage">
-				<h2>The School</h2>
-
-				<nav class="page-subnav">
+				<h2>Thomas Jefferson High School for Science and Technology</h2>
+				<nav>
+					<div class="nav-indicator"></div>
 					<ul>
 						<li load="about" class="active"><span class="fa nav-icon fa-info-circle"></span>About</li>
 						<li load="curriculum"><span class="fa nav-icon fa-book"></span>Curriculum</li>

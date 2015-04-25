@@ -11,8 +11,8 @@
 
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	
-	<script src="/tsa/js/includes.js" />
-	<script src="/tsa/js/header.js" />
+	<script src="/tsa/js/header.js"></script>
+	<script src="/tsa/js/tabs.js"></script>
 </head>
 <?php } ?>
 
@@ -39,11 +39,11 @@
 <?php function make_sidebar(){ ?>
 <section id="sidebar">
 	<article>
-		<h3>This is in the sidebar</h3>
-		<p>It looked lonely, so I put this here.</p>
+		<h3>Calendar</h3>
+		<?php include("widgets/gcal.php"); ?>
 	</article>
 	<article>
-		<h3>Tweets</h3>
+		<h3>Twitter <span class="secondary">@tjtsa</span></h3>
 		<?php include("widgets/twitter.php"); ?>
 	</article>
 </section>
