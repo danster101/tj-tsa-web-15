@@ -7,6 +7,8 @@ $white-light: rgba($white, .1);
 $white-transparent: rgba($white, 0);
 $black-dark: rgba(0, 0, 0, .9);
 $black-fade: rgba(0, 0, 0, .65);
+$black-transparent: rgba(0, 0, 0, 0);
+$black-light: rgba(0, 0, 0, .1);
 $header-font-stack: "Martel Sans", sans-serif;
 $body-font-stack: "Magra", sans-serif;
 $transition-fast: 200ms;
@@ -157,7 +159,7 @@ main {
 h2 {
 	font-size: 2.4em;
 	color: $black-dark;
-	margin: 2em 0px 0px 1em;
+	margin: 0px 0px 1em 1em;
 }
 
 #sidebar {
@@ -191,6 +193,25 @@ nav {
 	font-size: 1em;
 	color: $white;
 	fill: $white;
+	
+	&.page-subnav {
+		color: $black-fade;
+		fill: $black-fade;
+		padding-left: 80px;
+		
+		ul li {
+			background: $black-transparent;
+			
+			&.active {
+				background: $black-medium;
+				color: $black-dark;
+			}
+			
+			&:hover {
+				background: $black-light
+			}
+		}
+	}
 
 	ul {
 		list-style-type: none;
@@ -295,3 +316,4 @@ nav {
 		font-family: $body-font-stack;
 	}
 }
+
