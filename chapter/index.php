@@ -5,7 +5,7 @@
 		<?php make_header(); ?>
 		<?php make_sidebar(); ?>
 		<main>
-			<article>
+			<article class="multipage">
 				<h2>The Chapter</h2>
 
 				<nav class="page-subnav">
@@ -15,7 +15,13 @@
 					</ul>
 				</nav>
 				
-				<div class="content"></div>
+				<div class="content" id="about">
+					<?php include("about.php"); ?>
+				</div>
+				
+				<div class="content hidden" id="awards">
+					<?php include("awards.php"); ?>
+				</div>
 			</article>
 
 			<!--<div class="member-info-widget">
@@ -28,6 +34,14 @@
 		</main>
 		<?php make_footer(); ?>
 		<script>
+			$(".page-subnav li").click(function(){
+				$(".page-subnav li.active").removeClass("active");
+				$(this).addClass("active");
+				$(".content").addClass("hidden");
+				$(".content#" + $(this).attr("load")).removeClass("hidden");
+			});
+			
+			
 			var data = [
 				{
 					cx: 310,
