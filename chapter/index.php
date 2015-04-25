@@ -10,8 +10,12 @@
 
 				<nav class="page-subnav">
 					<ul>
-						<li load="about" class="active"><span class="fa nav-icon fa-info"></span>About</li>
+						<li load="about" class="active"><span class="fa nav-icon fa-info-circle"></span>About</li>
+						<li load="activities"><span class="fa nav-icon fa-paper-plane"></span>Activities</li>
 						<li load="awards"><span class="fa nav-icon fa-trophy"></span>Awards</li>
+						<li load="officers"><span class="fa nav-icon fa-gavel"></span>Officers</li>
+						<li load="calendar"><span class="fa nav-icon fa-calendar"></span>Calendar</li>
+						<li load="media"><span class="fa nav-icon fa-photo"></span>Media</li>
 					</ul>
 				</nav>
 				
@@ -20,7 +24,23 @@
 				</div>
 				
 				<div class="content hidden" id="awards">
+					<?php include("activities.php"); ?>
+				</div>
+				
+				<div class="content hidden" id="awards">
 					<?php include("awards.php"); ?>
+				</div>
+				
+				<div class="content hidden" id="officers">
+					<?php include("officers.php"); ?>
+				</div>
+				
+				<div class="content hidden" id="awards">
+					<?php include("calendar.php"); ?>
+				</div>
+				
+				<div class="content hidden" id="awards">
+					<?php include("media.php"); ?>
 				</div>
 			</article>
 
