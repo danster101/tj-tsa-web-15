@@ -10,29 +10,9 @@
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
 
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-
-	<script>
-		$(document).ready(function(){
-			var topperHeight = parseFloat($("body").css("font-size").slice(0, -2)) * 8;
-			$(window).scroll(function(e){
-				if($(window).scrollTop() > topperHeight){
-					$("body").addClass("scroll-small-header");
-				} else {
-					$("body").removeClass("scroll-small-header");
-				}
-			});
-
-			$("[link]").click(function(){
-				window.location = "/tsa" + $(this).attr("link");
-			});
-			
-			$(".return-to-top").click(function(){
-				$("html, body").animate({
-					scrollTop: 0
-				}, 1000);
-			});
-		});
-	</script>
+	
+	<script src="/tsa/js/includes.js" />
+	<script src="/tsa/js/header.js" />
 </head>
 <?php } ?>
 
@@ -45,10 +25,10 @@
 		<nav>
 			<ul>
 				<li link="/"><span class="fa nav-icon fa-home"></span>Home</li>
-				<li link="/chapter"><span class="fa nav-icon fa-users"></span>The Chapter</li>
+				<li link="/chapter"><span class="fa nav-icon fa-sitemap"></span>The Chapter</li>
 				<li link="/school"><span class="fa nav-icon fa-institution"></span>The School</li>
 				<li link="/tsa"><?php print(file_get_contents("/afs/csl.tjhsst.edu/web/activities/tsa/images/tsa-simplified.svg")); ?>The Organization</li>
-				<li link="/projects"><span class="fa nav-icon fa-book"></span>Projects</li>
+				<li link="/projects"><span class="fa nav-icon fa-cubes"></span>Projects</li>
 			</ul>
 		</nav>
 		<span class="fa return-to-top fa-arrow-circle-up"></span>

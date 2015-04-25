@@ -54,14 +54,6 @@
 		</main>
 		<?php make_footer(); ?>
 		<script>
-			$(".page-subnav li").click(function(){
-				$(".page-subnav li.active").removeClass("active");
-				$(this).addClass("active");
-				$(".content").addClass("hidden");
-				$(".content#" + $(this).attr("load")).removeClass("hidden");
-			});
-			
-			
 			var data = [
 				{
 					cx: 310,
