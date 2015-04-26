@@ -6,68 +6,12 @@
 		<?php make_sidebar(); ?>
 		<main>
 			<article>
-				<h3>Next Stop: Technosphere!</h3>
-				<p>Hello everyone!  <b>Technosphere</b> (the Virginia TSA State Conference) is coming up soon!  Make sure to get your fees to your officers as soon as possible, and don't forget to prepare for all of your events!</p>
+				<img src="//placehold.it/800x600" width="100%" />
 			</article>
 
 			<article>
-				<h3>Dolor sit amet</h3>
-				<p>Bacon ipsum dolor amet swine pariatur chuck short loin meatloaf boudin proident labore tongue ham. Pork belly pastrami deserunt, short loin fugiat consequat landjaeger minim drumstick shoulder excepteur tempor bresaola nisi tenderloin. Jerky duis pig incididunt aliquip dolore. Tempor sausage ut incididunt in quis dolore, biltong aute short ribs chuck pork belly minim.</p>
-			</article>
-			
-			<article>
-				<h3>Dolor sit amet</h3>
-				<p>Bacon ipsum dolor amet swine pariatur chuck short loin meatloaf boudin proident labore tongue ham. Pork belly pastrami deserunt, short loin fugiat consequat landjaeger minim drumstick shoulder excepteur tempor bresaola nisi tenderloin. Jerky duis pig incididunt aliquip dolore. Tempor sausage ut incididunt in quis dolore, biltong aute short ribs chuck pork belly minim.</p>
-			</article>
-			
-			<article>
-				<h3>Dolor sit amet</h3>
-				<p>Bacon ipsum dolor amet swine pariatur chuck short loin meatloaf boudin proident labore tongue ham. Pork belly pastrami deserunt, short loin fugiat consequat landjaeger minim drumstick shoulder excepteur tempor bresaola nisi tenderloin. Jerky duis pig incididunt aliquip dolore. Tempor sausage ut incididunt in quis dolore, biltong aute short ribs chuck pork belly minim.</p>
-			</article>
-			
-			<article>
-				<h3>Dolor sit amet</h3>
-				<p>Bacon ipsum dolor amet swine pariatur chuck short loin meatloaf boudin proident labore tongue ham. Pork belly pastrami deserunt, short loin fugiat consequat landjaeger minim drumstick shoulder excepteur tempor bresaola nisi tenderloin. Jerky duis pig incididunt aliquip dolore. Tempor sausage ut incididunt in quis dolore, biltong aute short ribs chuck pork belly minim.</p>
-			</article>
-			
-			<article>
-				<h3>Dolor sit amet</h3>
-				<p>Bacon ipsum dolor amet swine pariatur chuck short loin meatloaf boudin proident labore tongue ham. Pork belly pastrami deserunt, short loin fugiat consequat landjaeger minim drumstick shoulder excepteur tempor bresaola nisi tenderloin. Jerky duis pig incididunt aliquip dolore. Tempor sausage ut incididunt in quis dolore, biltong aute short ribs chuck pork belly minim.</p>
-			</article>
-			
-			<article>
-				<h3>Dolor sit amet</h3>
-				<p>Bacon ipsum dolor amet swine pariatur chuck short loin meatloaf boudin proident labore tongue ham. Pork belly pastrami deserunt, short loin fugiat consequat landjaeger minim drumstick shoulder excepteur tempor bresaola nisi tenderloin. Jerky duis pig incididunt aliquip dolore. Tempor sausage ut incididunt in quis dolore, biltong aute short ribs chuck pork belly minim.</p>
-			</article>
-			
-			<article>
-				<h3>Dolor sit amet</h3>
-				<p>Bacon ipsum dolor amet swine pariatur chuck short loin meatloaf boudin proident labore tongue ham. Pork belly pastrami deserunt, short loin fugiat consequat landjaeger minim drumstick shoulder excepteur tempor bresaola nisi tenderloin. Jerky duis pig incididunt aliquip dolore. Tempor sausage ut incididunt in quis dolore, biltong aute short ribs chuck pork belly minim.</p>
-			</article>
-			
-			<article>
-				<h3>Dolor sit amet</h3>
-				<p>Bacon ipsum dolor amet swine pariatur chuck short loin meatloaf boudin proident labore tongue ham. Pork belly pastrami deserunt, short loin fugiat consequat landjaeger minim drumstick shoulder excepteur tempor bresaola nisi tenderloin. Jerky duis pig incididunt aliquip dolore. Tempor sausage ut incididunt in quis dolore, biltong aute short ribs chuck pork belly minim.</p>
-			</article>
-			
-			<article>
-				<h3>Dolor sit amet</h3>
-				<p>Bacon ipsum dolor amet swine pariatur chuck short loin meatloaf boudin proident labore tongue ham. Pork belly pastrami deserunt, short loin fugiat consequat landjaeger minim drumstick shoulder excepteur tempor bresaola nisi tenderloin. Jerky duis pig incididunt aliquip dolore. Tempor sausage ut incididunt in quis dolore, biltong aute short ribs chuck pork belly minim.</p>
-			</article>
-			
-			<article>
-				<h3>Dolor sit amet</h3>
-				<p>Bacon ipsum dolor amet swine pariatur chuck short loin meatloaf boudin proident labore tongue ham. Pork belly pastrami deserunt, short loin fugiat consequat landjaeger minim drumstick shoulder excepteur tempor bresaola nisi tenderloin. Jerky duis pig incididunt aliquip dolore. Tempor sausage ut incididunt in quis dolore, biltong aute short ribs chuck pork belly minim.</p>
-			</article>
-			
-			<article>
-				<h3>Dolor sit amet</h3>
-				<p>Bacon ipsum dolor amet swine pariatur chuck short loin meatloaf boudin proident labore tongue ham. Pork belly pastrami deserunt, short loin fugiat consequat landjaeger minim drumstick shoulder excepteur tempor bresaola nisi tenderloin. Jerky duis pig incididunt aliquip dolore. Tempor sausage ut incididunt in quis dolore, biltong aute short ribs chuck pork belly minim.</p>
-			</article>
-			
-			<article>
-				<h3>Dolor sit amet</h3>
-				<p>Bacon ipsum dolor amet swine pariatur chuck short loin meatloaf boudin proident labore tongue ham. Pork belly pastrami deserunt, short loin fugiat consequat landjaeger minim drumstick shoulder excepteur tempor bresaola nisi tenderloin. Jerky duis pig incididunt aliquip dolore. Tempor sausage ut incididunt in quis dolore, biltong aute short ribs chuck pork belly minim.</p>
+				<p>Welcome to TJHSST TSA!</p>
+				<p class="secondary">Here you will find information about our organization, chapter, and school.</p>
 			</article>
 		</main>
 		<?php make_footer(); ?>

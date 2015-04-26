@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	var topperHeight = parseFloat($("body").css("font-size").slice(0, -2)) * 8;
+	var topperHeight = parseFloat($("body").css("font-size").slice(0, -2)) * 5.42;
 	$(window).scroll(function(e){
 		if($(window).scrollTop() > topperHeight){
 			$("body").addClass("scroll-small-header");

@@ -67,6 +67,7 @@ body {
 	-webkit-transition: margin-top $transition-medium;
 	transition: margin-top $transition-medium;
 	display: flex;
+	justify-content: center;
 }
 
 .flex {
@@ -90,9 +91,9 @@ header {
 	h1 {
 		color: $white;
 		text-align: center;
-		font-size: 4em;
+		font-size: 3.6em;
 		margin: 0px;
-		height: 1.8em;
+		line-height: 1.2em;
 	}
 
 	#header-badge {
@@ -145,7 +146,7 @@ header {
 body.scroll-small-header {
 	header {
 		position: fixed;
-		top: -8em;
+		top: -5.42em;
 
 		.return-to-top {
 			opacity: $fade;
@@ -167,9 +168,9 @@ body.scroll-small-header {
 
 main {
 	float: left;
-	flex-grow: 1;
-	width: 0px;
-	margin-left: 120px;
+//	flex-grow: 1;
+	width: 70ch;
+//	margin-left: 120px;
 
 	article {
 		padding: 1em 0px;
@@ -207,7 +208,7 @@ h2 {
 #sidebar {
 	float: right;
 	width: 260px;
-	margin: 0px 16px;
+	margin: 0px 0px 0px 16px;
 	order: 2;
 
 	article {
