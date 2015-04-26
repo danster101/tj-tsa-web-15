@@ -12,7 +12,7 @@
 					<div class="nav-indicator"></div>
 					<ul>
 						<li load="about" class="active"><span class="fa nav-icon fa-info-circle"></span>About</li>
-						<li load="members" class="active"><span class="fa nav-icon fa-users"></span>Members</li>
+						<li load="members"><span class="fa nav-icon fa-users"></span>Members</li>
 						<li load="activities"><span class="fa nav-icon fa-paper-plane"></span>Activities</li>
 						<li load="awards"><span class="fa nav-icon fa-trophy"></span>Awards</li>
 						<li load="officers"><span class="fa nav-icon fa-gavel"></span>Officers</li>
