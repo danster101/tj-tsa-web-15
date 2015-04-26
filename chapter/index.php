@@ -25,7 +25,7 @@
 					<?php include("about.php"); ?>
 				</div>
 				
-				<div class="content" id="members">
+				<div class="content hidden" id="members">
 					<?php include("members.php"); ?>
 				</div>
 				

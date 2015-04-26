@@ -39,7 +39,7 @@
 <?php function make_sidebar(){ ?>
 <section id="sidebar">
 	<article>
-		<h3>Calendar</h3>
+		<h3>Upcoming Events</h3>
 		<?php include("widgets/gcal.php"); ?>
 	</article>
 	<article>
