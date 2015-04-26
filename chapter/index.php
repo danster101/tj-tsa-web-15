@@ -41,11 +41,11 @@
 					<?php include("officers.php"); ?>
 				</div>
 				
-				<div class="content hidden" id="awards">
+				<div class="content hidden" id="calendar">
 					<?php include("calendar.php"); ?>
 				</div>
 				
-				<div class="content hidden" id="awards">
+				<div class="content hidden" id="media">
 					<?php include("media.php"); ?>
 				</div>
 			</article>
