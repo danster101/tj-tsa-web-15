@@ -162,10 +162,10 @@ main {
 		}
 
 		h3 {
-//			color: $primary-fade;
-//			font-size: 2em;
-//			margin: 0px 0px 0px 1em;
-			
+			//			color: $primary-fade;
+			//			font-size: 2em;
+			//			margin: 0px 0px 0px 1em;
+
 			color: $white;
 			background: $primary;
 			margin-left: 0;
@@ -173,7 +173,7 @@ main {
 			border-radius: .2em .2em 0px 0px;
 			font-size: 2em;
 		}
-		
+
 		h4 {
 			font-size: 1.2em;
 		}
@@ -313,39 +313,6 @@ nav {
 	transition-delay: $transition-fast;
 }
 
-.blur {
-	filter: blur(4px);
-	-webkit-filter: blur(4px);
-}
-
-.member-info-widget {
-	width: 720px;
-	height: 540px;
-	position: relative;
-	overflow: hidden;
-
-	img {
-		position: absolute;
-		left: 0px;
-		top: 0px;
-		right: 0px;
-		bottom: 0px;
-		-webkit-clip-path: circle(100% at center);
-		clip-path: circle(100% at center);
-		-webkit-transition-delay: 200ms;
-		transition-delay: 200ms;
-		-webkit-transition-duration: $transition-medium;
-		transition-duration: $transition-medium;
-		-webkit-transition-timing-function: $ease-smooth;
-		transition-timing-function: $ease-smooth;
-	}
-
-	.sharp:after {
-		content: attr(data-name);
-		font-family: $body-font-stack;
-	}
-}
-
 .multipage {
 	.content {
 		overflow: hidden;
@@ -381,4 +348,76 @@ nav {
 
 .secondary {
 	opacity: $fade;
+}
+
+.member-info-widget {
+	width: 100%;
+	height: 540px;
+	position: relative;
+	overflow: hidden;
+
+	.name-label-container {
+		position: absolute;
+		transition: left 400ms 200ms, top 400ms 200ms;
+		pointer-events: none;
+
+		.name-label {
+			position: relative;
+			background: $black-fade;
+			color: $white;
+			z-index: 8;
+			font-family: $body-font-stack;
+			-webkit-transform: translate(-50%, 0px);
+			transform: translate(-50%, 0px);
+			padding: .4em;
+			font-size: 1em;
+			border-radius: .2em;
+			text-align: center;
+
+			top: 8px;
+			opacity: 0;
+			transition: top $transition-medium 200ms, opacity $transition-medium 200ms;
+
+			&.active {
+				top: 0px;
+				opacity: 1;
+				transition: top $transition-medium 800ms, opacity $transition-medium 800ms;
+			}
+
+			&:after {
+				content: "";
+				position: absolute;
+				left: calc(50% - 8px);
+				bottom: 100%;
+				border: 8px solid transparent;
+				border-bottom-color: $black-fade;
+			}
+		}
+	}
+
+	img {
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		right: 0px;
+		bottom: 0px;
+		-webkit-clip-path: circle(100% at center);
+		clip-path: circle(100% at center);
+		-webkit-transition-delay: 200ms;
+		transition-delay: 200ms;
+		-webkit-transition-duration: $transition-medium;
+		transition-duration: $transition-medium;
+		-webkit-transition-timing-function: $ease-smooth;
+		transition-timing-function: $ease-smooth;
+
+		&.sharp:after {
+			content: attr(data-name);
+			font-family: $body-font-stack;
+		}
+
+		&.blur {
+			filter: blur(4px);
+			-webkit-filter: blur(4px);
+		}
+	}
 }
