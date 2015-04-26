@@ -1,11 +1,13 @@
 $(document).ready(function(){
 	var updateNavIndicatorPosition = function(){
-		$(".multipage nav .nav-indicator").css({
-			left: $(".multipage nav .active").position().left,
-			top: $(".multipage nav .active").position().top,
-			width: $(".multipage nav .active").outerWidth(),
-			height: $(".multipage nav .active").outerHeight()
-		});
+		if($(".multipage nav .nav-indicator").size() > 0){
+			$(".multipage nav .nav-indicator").css({
+				left: $(".multipage nav .active").position().left,
+				top: $(".multipage nav .active").position().top,
+				width: $(".multipage nav .active").outerWidth(),
+				height: $(".multipage nav .active").outerHeight()
+			});
+		}
 	}
 
 	$(".multipage nav li").click(function(){
@@ -15,10 +17,10 @@ $(document).ready(function(){
 		$(".multipage .content#" + $(this).attr("load")).removeClass("hidden");
 		updateNavIndicatorPosition();
 	});
-	
+
 	$(window).resize(function(){
 		updateNavIndicatorPosition();
 	});
-	
+
 	updateNavIndicatorPosition();
 });

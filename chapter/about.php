@@ -12,10 +12,10 @@
 
 <p>Seven of TJ TSA's members made the trip to Orlando for the National Conference in June 2013. The team had a handful of finalist finishes and a single trophy, won by Matthew Barbano for Future Technology Teacher.</p>
 
-<div class="float-left" style="width: 225px">
-    <img src="images/florida-nationals-2013.jpg" width=225 />
-    <span class="subtitle">The logo of the 2013 National Conference held in Orlando, Florida.</span>
-</div>
+<figure float="left" style="width: 225px">
+    <img src="/tsa/images/florida-nationals-2013.jpg" width="225px" />
+    <figcaption>The logo of the 2013 National Conference held in Orlando, Florida.</figcaption>
+</figure>
 
 <h4>2013-2014</h4>
 

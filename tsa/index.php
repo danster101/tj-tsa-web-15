@@ -9,6 +9,7 @@
 				<h2>Technology Student Assocation</h2>
 
 				<nav class="page-subnav">
+					<div class="nav-indicator"></div>
 					<ul>
 						<li load="about" class="active"><span class="fa nav-icon fa-info-circle"></span>About</li>
 						<li load="history"><span class="fa nav-icon fa-history"></span>History</li>
