@@ -71,7 +71,7 @@ body {
 	justify-content: center;
 	
 	&#home {
-		margin-top: calc(8em + 16 / 9 * (70ch + 276px));
+		margin-top: calc(8em + 9 / 16 * (70ch + 276px));
 	}
 }
 
@@ -404,5 +404,23 @@ nav {
 			filter: blur(4px);
 			-webkit-filter: blur(4px);
 		}
+	}
+}
+
+.slider-wrapper {
+	position: absolute;
+	top: 8em;
+	left: calc(50% - 35ch - 138px);
+	width: calc(70ch + 276px);
+	padding-bottom: 40%;
+	
+	.slider {
+		position: absolute;
+		left: 0px;
+		right: 0px;
+		top: 0px;
+		bottom: 0px;
+		
+		background: $secondary-fade;
 	}
 }
