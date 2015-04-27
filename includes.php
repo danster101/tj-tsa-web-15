@@ -10,18 +10,19 @@
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
 
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-	
+
 	<script src="/tsa/js/header.js"></script>
+	<script src="/tsa/js/links.js"></script>
 	<script src="/tsa/js/tabs.js"></script>
 </head>
 <?php } ?>
 
 <?php function make_header(){ ?>
 <header>
-	<h1>TJHSST TSA</h1>
+	<!--	<h1>TJHSST TSA</h1>-->
 	<img id="header-badge" src="/tsa/images/header-badge.svg" />
+	<h1>TJHSST TSA</h1>
 	<div class="flex">
-		<div class="title-secondary">TJHSST TSA</div>
 		<nav>
 			<ul>
 				<li link="/"><span class="fa nav-icon fa-home"></span>Home</li>

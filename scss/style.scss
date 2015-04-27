@@ -7,6 +7,7 @@ $white-light: rgba($white, .1);
 $white-transparent: rgba($white, 0);
 $black: black;
 $black-dark: rgba($black, .9);
+$black-deep: #333333;
 $black-fade: rgba($black, .65);
 $black-transparent: rgba($black, 0);
 $black-light: rgba($black, .1);
@@ -23,20 +24,20 @@ $fade: .65;
 $multipage-transition: 400ms;
 
 @mixin aspect-ratio($width, $height) {
-  position: relative;
-  &:before {
-    display: block;
-    content: "";
-    width: 100%;
-    padding-top: ($height / $width) * 100%;
-  }
-  > .ar-content {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-  }
+	position: relative;
+	&:before {
+		display: block;
+		content: "";
+		width: 100%;
+		padding-top: ($height / $width) * 100%;
+	}
+	> .ar-content {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+	}
 }
 
 * {
@@ -63,11 +64,15 @@ h6 {
 }
 
 body {
-	margin-top: 12em;
+	margin-top: 8em;
 	-webkit-transition: margin-top $transition-medium;
 	transition: margin-top $transition-medium;
 	display: flex;
 	justify-content: center;
+	
+	&#home {
+		margin-top: calc(8em + 16 / 9 * (70ch + 276px));
+	}
 }
 
 .flex {
@@ -78,60 +83,29 @@ body {
 }
 
 header {
-	background: $primary;
-	position: absolute;
+	background: $black-deep;
+	position: fixed;
 	top: 0px;
 	left: 0px;
 	right: 0px;
-	padding: 1.4em 0px .4em;
+	padding: .6em calc(50% - 35ch - 138px) .4em;
 	margin-bottom: 2.4em;
 	z-index: 10;
 
-
 	h1 {
 		color: $white;
-		text-align: center;
-		font-size: 3.6em;
-		margin: 0px;
-		line-height: 1.2em;
+		font-family: $body-font-stack;
+		margin: 0px 0px 0px 3.4em;
+		font-size: 2em;
 	}
 
 	#header-badge {
-		width: 100px;
-		height: 100px;
-		border-radius: 50px 50px 50px 0px;
-		position: absolute;
-		left: 0px;
-		bottom: 0px;
-		-webkit-transform: translate(0px, 50%);
-		-ms-transform: translate(0px, 50%);
-		transform: translate(0px, 50%);
+		width: 6em;
+		height: 6em;
 		background: $primary;
-	}
-
-	.flex {
-		margin-left: 110px;
-
-		.title-secondary {
-			width: 0px;
-			color: $white;
-			font-family: $header-font-stack;
-			display: inline-block;
-			overflow: hidden;
-			font-size: 0;
-			position: relative;
-			top: -2em;
-			opacity: 0;
-			height: 1.4em;
-
-			-webkit-transition: width $transition-medium $transition-medium,
-				opacity 0ms $transition-medium,
-				top 2*$transition-medium, $transition-medium;
-
-			transition: width $transition-medium $transition-medium,
-				opacity 0ms $transition-medium,
-				top 2*$transition-medium, $transition-medium;
-		}
+		position: absolute;
+//		top: calc(100% - 4em);
+		border-radius: 6em;
 	}
 
 	nav {
@@ -139,38 +113,31 @@ header {
 		-webkit-flex-grow: 1;
 		-ms-flex-positive: 1;
 		flex-grow: 1;
-		width: 0px;
+		margin-left: 6.4em;
 	}
 }
 
-body.scroll-small-header {
-	header {
-		position: fixed;
-		top: -5.42em;
-
-		.return-to-top {
-			opacity: $fade;
-			cursor: pointer;
-
-			&:hover {
-				opacity: 1;
-			}
+.return-to-top {
+	opacity: 0;
+	pointer-events: none;
+	transition-duration: 200ms;
+	
+	.not-at-top & {
+		opacity: $fade;
+		pointer-events: all;
+		cursor: pointer;
+		
+		&:hover {
+			opacity: 1;
 		}
-	}
-
-	.title-secondary {
-		width: 150px;
-		font-size: 1.4em;
-		top: 0em;
-		opacity: 1;
 	}
 }
 
 main {
 	float: left;
-//	flex-grow: 1;
+	//	flex-grow: 1;
 	width: 70ch;
-//	margin-left: 120px;
+	//	margin-left: 120px;
 
 	article {
 		padding: 1em 0px;
@@ -371,7 +338,7 @@ nav {
 
 .member-info-widget {
 	@include aspect-ratio(4, 3);
-	
+
 	width: 100%;
 	max-width: 720px;
 	margin: 0px auto;
