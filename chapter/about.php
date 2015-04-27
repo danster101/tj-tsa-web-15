@@ -1,8 +1,24 @@
 <h3>History</h3>
 
-<h4>Pre-2012</h4>
+<h4>2014-15</h4>
 
-<p>TJ had some attempts to begin TSA chapters in the past. However, most of them only lasted a single year before disbanding.</p>
+<p>This school year the TJ TSA Chapter has 38 active members that range from grades 9-12. The founding core members are all Seniors and will graduate in June of 2015 so the focus of the club has shifted to making sure that underclassmen are active participants in competitions to ensure long term success of the club. We have been teaching freshmen and sophomores how to build and what to study in order to become technologically savvy.</p>
+
+<p>This winter brought the most snow since TJ TSA was founded! This led to 11 snowdays and even more delays, including the Northern Regional Fair which got pushed back by two weeks. This new date caused a lot of conflicts amongst members but by coordinating project drop-offs and rides, we had a large presence and won 10 trophies!</p>
+
+<p>TJ TSA is currently finishing preparations for Virginia Technosphere 2015 where it hopes to make it a hat-trick and win the <i>Arvid W. Van Dyke Outstanding School Award</i> for the third straight year!</p>
+
+<h4>2013-2014</h4>
+
+<p>When the TSA season began again in fall 2013, the chapter had gained much popularity and had established itself as a highly competitive club. Unlike the previous year, a strict applications process was used to determine members, and about 30% of applicants were rejected, producing a competing team of about 34 students. The chapter also had a different sponsor and meeting location than the previous year.</p>
+
+<p>TJ TSA delivered once again at the 2014 Northern Regional Fair, bringing home 18 trophies and 13 additional finalist finishes totalling 31 top 10 event finishes, notably including a first-second-third sweep in Debating Technological Issues.</p>
+
+<p>Outdoing their regional performance and gaining experience competing at the state level, TJ TSA went to Technosphere 2014 and won 19 trophies and 18 additional finalist awards to end up with 37 top 10 results. For the second consecutive year, the chapter won the <i>Arvid W. Van Dyke Outstanding School Award</i>.</p>
+
+<p>In between Technosphere and the state tournament, TJ TSA participated in J-Day or Jefferson Day. This is TJHSST's annual field-day like event where school clubs have booths and are allowed to sell food and other items to raise funds. In addition, the Student Government sets up several moon-bounces and waterslides and there are several game rooms. TJ TSA raised over $200 selling fried oreos, donuts, twinkies, and other sweet treats.</p>
+
+<p>This year TJ TSA had a much greater presence at the 2014 National TSA Conference because it was in our backyard in Washington D.C. We improved greatly from last year, taking home 4 trophies (2 first place) and 4 additional finalist awards for a total of 8 top 10 finishes.</p>
 
 <h4>2012-2013</h4>
 
@@ -17,17 +33,9 @@
 
 <p>Seven of TJ TSA's members made the trip to Orlando for the National Conference in June 2013. The team had a handful of finalist finishes and a single trophy, won by Matthew Barbano for Future Technology Teacher.</p>
 
-<h4>2013-2014</h4>
+<h4>Pre-2012</h4>
 
-<p>When the TSA season began again in fall 2013, the chapter had gained much popularity and had established itself as a highly competitive club. Unlike the previous year, a strict applications process was used to determine members, and about 30% of applicants were rejected, producing a competing team of about 34 students. The chapter also had a different sponsor and meeting location than the previous year.</p>
-
-<p>TJ TSA delivered once again at the 2014 Northern Regional Fair, bringing home 18 trophies and 13 additional finalist finishes totalling 31 top 10 event finishes, notably including a first-second-third sweep in Debating Technological Issues.</p>
-
-<p>Outdoing their regional performance and gaining experience competing at the state level, TJ TSA went to Technosphere 2014 and won 19 trophies and 18 additional finalist awards to end up with 37 top 10 results. For the second consecutive year, the chapter won the <i>Arvid W. Van Dyke Outstanding School Award</i>.</p>
-
-<p>In between Technosphere and the state tournament, TJ TSA participated in J-Day or Jefferson Day. This is TJHSST's annual field-day like event where school clubs have booths and are allowed to sell food and other items to raise funds. In addition, the Student Government sets up several moon-bounces and waterslides and there are several game rooms. TJ TSA raised over $200 selling fried oreos, donuts, twinkies, and other sweet treats.</p>
-
-<p>This year TJ TSA had a much greater presence at the 2014 National TSA Conference because it was in our backyard in Washington D.C. We improved greatly from last year, taking home 4 trophies (2 first place) and 4 additional finalist awards for a total of 8 top 10 finishes.</p>
+<p>TJ had some attempts to begin TSA chapters in the past. However, most of them only lasted a single year before disbanding.</p>
 
 <h3>Contact Us</h3>
 
