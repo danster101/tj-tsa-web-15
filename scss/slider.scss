@@ -1,0 +1,112 @@
+$primary: #005DAA;
+$primary-fade: rgba($primary, .9);
+$secondary: #EE3524;
+$secondary-fade: rgba($secondary, .9);
+$white: #FFFFFF;
+$white-light: rgba($white, .1);
+$white-transparent: rgba($white, 0);
+$black: black;
+$black-dark: rgba($black, .9);
+$black-deep: #333333;
+$black-fade: rgba($black, .65);
+$black-transparent: rgba($black, 0);
+$black-light: rgba($black, .1);
+$black-medium: rgba($black, .25);
+$secondary-medium: rgba($secondary, .25);
+$secondary-light: rgba($secondary, .1);
+$secondary-transparent: rgba($secondary, 0);
+$header-font-stack: "Martel Sans", sans-serif;
+$body-font-stack: "Magra", sans-serif;
+$transition-fast: 200ms;
+$transition-medium: 400ms;
+$ease-smooth: cubic-bezier(.5, 0, .5, 1);
+$fade: .65;
+$multipage-transition: 400ms;
+$transition-slow: 800ms;
+$ease-in-heavy: cubic-bezier(.2, 0, 1, .35);
+$ease-out-heavy: cubic-bezier(0, .2, .35, 1);
+
+.sequence-canvas {
+	overflow: hidden;
+
+	* {
+		transition-duration: $transition-slow;
+	}
+
+	li {
+		list-style-type: none;
+		display: block;
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		right: 0px;
+		bottom: 0px;
+		overflow: hidden;
+	}
+
+	.animate-in {
+		* {
+//			transition-timing-function: $ease-out-heavy;
+		}
+		
+		&#welcome {
+			#tsa-logo {
+				left: 5%;
+			}
+			
+			#at {
+				top: 15%;
+			}
+			
+			#tj-logo {
+				right: 10%;
+			}
+			
+			#welcome-text {
+				bottom: 10%;
+			}
+		}
+	}
+
+	.animate-out {
+		
+	}
+
+	#welcome {
+		#tsa-logo {
+			position: absolute;
+			width: 40%;
+			left: -45%;
+			top: 10%;
+		}
+		
+		#at {
+			position: absolute;
+			font-size: 8em;
+			color: $black-fade;
+			left: 48%;
+			top: -40%;
+			transition-delay: 200ms;
+		}
+		
+		#tj-logo {
+			position: absolute;
+			right: -45%;
+			top: 10%;
+			width: 25%;
+			transition-delay: 400ms;
+		}
+		
+		#welcome-text {
+			position: absolute;
+			bottom: -15%;
+			left: 40%;
+			font-size: 1.6em;
+			font-family: $body-font-stack;
+			transition-delay: 800ms;
+			background: $secondary-light;
+			padding: .4em;
+			border-radius: .4em;
+		}
+	}
+}

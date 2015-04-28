@@ -49,6 +49,7 @@ body {
 	margin: 0px;
 	width: 100vw;
 	overflow-x: hidden;
+	overflow-y: scroll;
 }
 
 h1 {
@@ -412,15 +413,33 @@ nav {
 	top: 8em;
 	left: calc(50% - 35ch - 138px);
 	width: calc(70ch + 276px);
-	padding-bottom: 40%;
 	
-	.slider {
+	.slider-container {
+		width: 100%;
+		padding-bottom: 56.25%;
+	
+		.slider {
+			position: absolute;
+			left: 0px;
+			right: 0px;
+			top: 0px;
+			bottom: 0px;
+		}
+	}
+}
+
+.calenar-container {
+	width: 100%;
+	padding-bottom: 75%;
+	position: relative;
+	
+	.calendar {
 		position: absolute;
 		left: 0px;
-		right: 0px;
 		top: 0px;
 		bottom: 0px;
-		
-		background: $secondary-fade;
+		right: 0px;
+		width: 100%;
+		height: 100%;
 	}
 }
