@@ -42,6 +42,7 @@ $multipage-transition: 400ms;
 
 * {
 	box-sizing: border-box;
+	font-family: $body-font-stack;
 }
 
 html,
@@ -441,5 +442,36 @@ nav {
 		right: 0px;
 		width: 100%;
 		height: 100%;
+	}
+}
+
+a {
+	&:link[target=_blank]:after {
+		content: "\f08e";
+		font-family: "fontawesome";
+		font-size: 75%;
+		vertical-align: 25%;
+		text-decoration: none;
+	}
+	
+	&:link,
+	&:visited {
+		text-decoration: none;
+		color: $primary;
+	}
+	
+	&:hover,
+	&:active {
+		text-decoration: underline;
+	}
+}
+
+.student-project-list {
+	list-style-type: none;
+	color: $black-dark;
+	
+	li {
+		font-size: 1.2em;
+		margin-bottom: 1em;
 	}
 }

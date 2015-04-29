@@ -15,6 +15,7 @@ $(document).ready(function(){
 		$(this).addClass("active");
 		$(".multipage .content").addClass("hidden");
 		$(".multipage .content#" + $(this).attr("load")).removeClass("hidden");
+		history.pushState(null, null, "#" + $(this).attr("load"));
 		updateNavIndicatorPosition();
 	});
 
@@ -22,5 +23,11 @@ $(document).ready(function(){
 		updateNavIndicatorPosition();
 	});
 
-	updateNavIndicatorPosition();
+	if(window.location.hash){
+		$(".multipage nav li[load=" + window.location.hash.substring(1) + "]").trigger("click");
+	}
+
+	setTimeout(function(){
+		updateNavIndicatorPosition();
+	}, 600);
 });
