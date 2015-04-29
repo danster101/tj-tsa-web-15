@@ -1,9 +1,16 @@
 <script src="/tsa/js/jquery.sequence-min.js"></script>
 <link rel="stylesheet" type="text/css" href="/tsa/css/slider.css" />
 <script>
-$(document).ready(function(){
-	$("#sequence").sequence().data("sequence");
-});
+	$(document).ready(function(){
+		$("#sequence").sequence({
+			animateStartingFrameIn: true,
+			transitionThreshold: true,
+			autoPlay: true,
+			reverseAnimationsWhenNavigatingBackwards: false,
+			nextButton: ".seq-next",
+			prevButton: ".seq-prev"
+		}).data("sequence");
+	});
 </script>
 <div class="slider-wrapper">
 	<div class="slider-container">
@@ -11,17 +18,29 @@ $(document).ready(function(){
 			<ul class="sequence-canvas">
 				<li id="welcome">
 					<img id="tsa-logo" src="/tsa/images/tsa-color.svg" />
-					<div id="at">@</div>
 					<img id="tj-logo" src="/tsa/images/tj-logo.jpg" />
-					<div id="welcome-text">Welcome to TSA at TJHSST</div>
+					<img id="cube" src="/tsa/images/cube.png" />
+					<div id="welcome-text">Welcome to TJHSST TSA</div>
 				</li>
-				<li>
-					
+				<li id="renovation">
+					<img id="tj-reno-sketch" src="/tsa/images/renovation.jpg" />
+					<div id="new-tjhsst">Welcome to the new TJHSST.</div>
+					<div id="read-more">See what's new in the renovated tech labs &raquo;</div>
 				</li>
-				<li>
-					
+				<li id="spintwo">
+					<img id="spintwo-bg" src="/tsa/images/spintwo-bg.png" />
+					<div id="spintwo-fg">
+						<img id="spintwo-player" src="/tsa/images/spintwo-player.png" />
+						<img id="spintwo-ground1" src="/tsa/images/spintwo-ground.png" />
+						<img id="spintwo-ground2" src="/tsa/images/spintwo-ground.png" />
+						<img id="spintwo-ground3" src="/tsa/images/spintwo-ground.png" />
+					</div>
+					<img id="spintwo-title" src="/tsa/images/spintwo-title.png" />
+					<div id="read-more">Check out a video game made by TJ TSA students &raquo;</div>
 				</li>
 			</ul>
+			<div class="seq-next">&rsaquo;</div>
+			<div class="seq-prev">&lsaquo;</div>
 		</div>
 	</div>
 </div>
