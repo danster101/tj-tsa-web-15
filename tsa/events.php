@@ -82,7 +82,7 @@
     <li><b>Webmaster</b>:  Teams of up to five work to produce a website showcasing their TSA chapter as well as TSA as a whole.  In addition, teams must also create a site to match a Design Brief that changes every year.  (The 2014 design brief is "How to Build Your First Web Site".)</li>
 </ul>
 
-<h2>Virginia Events</h2>
+<h4>Virginia Events</h4>
 
 <ul>
     
