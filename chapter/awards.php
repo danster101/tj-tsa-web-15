@@ -5,7 +5,7 @@
 <h4>2014 Technosphere</h4>
 
 <figure>
-    <img src="/tsa/images/techno2014a.jpeg" />
+    <img src="/tsa/images/techno2014a.jpg" />
 </figure>
 
 <div>
