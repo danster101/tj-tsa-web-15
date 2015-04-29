@@ -25,6 +25,7 @@ $(document).ready(function(){
 
 	if(window.location.hash){
 		$(".multipage nav li[load=" + window.location.hash.substring(1) + "]").trigger("click");
+		$(window).scrollTop(0);
 	}
 
 	setTimeout(function(){
