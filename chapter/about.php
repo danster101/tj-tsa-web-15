@@ -1,12 +1,18 @@
-<h3>History</h3>
+<h3>This Year in TSA</h3>
+
+<h4>Coming Up</h4>
+
+<p>TJ TSA is currently finishing preparations for Virginia Technosphere 2015 where it hopes to make it a hat-trick and win the <i>Arvid W. Van Dyke Outstanding School Award</i> for the third straight year!</p>
+
+<p>This year for J-day (our school's annual end-of-year celebration) TJ TSA will be hosting a game room in Mr. Piccione's room (146). We plan on having four different set ups of either the Wii or Wii U playing Super Smash Bros. and Mario Kart. We will fundraise by charging students based on time spent in the game room, charging 50&cent; for soda, and having several video game tournaments with seperate entry fees. There will be prizes for winners of the tournaments. Our fundraising goal for this event is about $400.</p>
 
 <h4>2014-15</h4>
 
-<p>This school year the TJ TSA Chapter has 38 active members that range from grades 9-12. The founding core members are all Seniors and will graduate in June of 2015 so the focus of the club has shifted to making sure that underclassmen are active participants in competitions to ensure long term success of the club. We have been teaching freshmen and sophomores how to build and what to study in order to become technologically savvy.</p>
+<p>This school year the TJ TSA Chapter has 38 active members that cover all grade levels. The founding core members are all Seniors and will graduate in June of 2015 so the focus of the club has become the underclassmen. The officer core is making sure underclassmen are active participants in competitions. We have been teaching freshmen and sophomores how to build various projects and what is important for them to know in order to become technologically savvy.</p>
 
 <p>This winter brought the most snow since TJ TSA was founded! This led to 11 snowdays and even more delays, including the Northern Regional Fair which got pushed back by two weeks. This new date caused a lot of conflicts amongst members but by coordinating project drop-offs and rides, we had a large presence and won 10 trophies!</p>
 
-<p>TJ TSA is currently finishing preparations for Virginia Technosphere 2015 where it hopes to make it a hat-trick and win the <i>Arvid W. Van Dyke Outstanding School Award</i> for the third straight year!</p>
+<h3>History</h3>
 
 <h4>2013-2014</h4>
 
@@ -25,7 +31,7 @@
 <p>The current TJHSST TSA Chapter was founded in 2012 by Lucas Lin and Kyle Herndon. Danial Hussain and Matthew Savage aided in establishing the chapter and making sure members were ready for the regional, state, and national conferences. The chapter was mostly filled with members who were graduates from the Rachel Carson Middle School TSA Chapter. That year, the chapter had 25 members.</p>
 
 <figure float="right" style="width: 200px">
-    <img src="/tsa/images/florida-nationals-2013.jpg" width="200" />
+    <img src="/tsa/images/chapter/about/florida-nationals-2013.jpg" width="200" />
     <figcaption>The logo of the 2013 National Conference held in Orlando, Florida.</figcaption>
 </figure>
 
