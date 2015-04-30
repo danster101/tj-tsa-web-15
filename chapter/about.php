@@ -1,4 +1,10 @@
-<h3>History</h3>
+<h3>This Year in TSA</h3>
+
+<h4>Coming Up</h4>
+
+<p>TJ TSA is currently finishing preparations for Virginia Technosphere 2015 where it hopes to make it a hat-trick and win the <i>Arvid W. Van Dyke Outstanding School Award</i> for the third straight year!</p>
+
+<p>This year for J-day (our school's annual end-of-year celebration) TJ TSA will be hosting a game room in Mr. Piccione's room (146). We plan on having four different set ups of either the Wii or Wii U playing Super Smash Bros. and Mario Kart. We will fundraise by charging students based on time spent in the game room, charging 50&cent; for soda, and having several video game tournaments with seperate entry fees. There will be prizes for winners of the tournaments. Our fundraising goal for this event is about $400.</p>
 
 <h4>2014-15</h4>
 
@@ -6,7 +12,7 @@
 
 <p>This winter brought the most snow since TJ TSA was founded! This led to 11 snowdays and even more delays, including the Northern Regional Fair which got pushed back by two weeks. This new date caused a lot of conflicts amongst members but by coordinating project drop-offs and rides, we had a large presence and won 10 trophies!</p>
 
-<p>TJ TSA is currently finishing preparations for Virginia Technosphere 2015 where it hopes to make it a hat-trick and win the <i>Arvid W. Van Dyke Outstanding School Award</i> for the third straight year!</p>
+<h3>History</h3>
 
 <h4>2013-2014</h4>
 
