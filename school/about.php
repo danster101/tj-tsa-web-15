@@ -1,10 +1,12 @@
+<h3>TJHSST</h3>
+
 <figure float="left" style="width: 200px">
-    <img src="/tsa/images/school/about/tj-logo.png" width="200px" />
+    <img src="/tsa/images/school/tj-logo.png" width="200px" />
 </figure>
 
 <p>Thomas Jefferson High School for Science and Technology was first founded as Thomas Jefferson High School in Alexandria, VA in 1964 and was then officially made a selective VA Public Governer's school in 1985. <a href="http://tjhsst.edu" target="_blank">TJHSST</a> is part of Fairfax County Public Schools (<a href="http://www.fcps.edu" target="_blank">FCPS</a>). The school is public, but a special admissions process was created that involves a standardized test, teacher recommendations, and past achievements. The TJHSST admissions process is tweaked each year to adapt to the changing educational environment. The current principle is Dr. Evan Glazer, who earned a B.S in Mathematics, a M.S. in Mathematics Education, and a Ph.D. in Instructoral Technology (Alumni of University of Illinois and University of Georgia). A full staff directory can be found <a href="http://www.tjhsst.edu/staff_directory.html" target="_blank">here</a>.</p> 
 
-<h4>Awards and Honors</h4>
+<h3>Awards and Honors</h3>
 
 <ul>
 
@@ -20,16 +22,16 @@
 
 </ul>
 
-<h4>Notable Vistiors</h4>
+<h3>Notable Vistiors</h3>
 
 <p>From 1986 to 2014, Thomas Jefferson has had countless key figures in all fields of study and research visit to speak and interact with the student body. Below are some of the key speakers that have visited:</p>
 
 <figure float="right" style="width: 200px">
-    <img src="/tsa/images/school/about/obama.jpg" width="200px" />
+    <img src="/tsa/images/school/obama.jpg" width="200px" />
     <figcaption>President Obama signs a patent bill into law.</figcaption>
 </figure>
 
-<h5>Politicians</h5>
+<h4>Politicians</h4>
 
 <ul>
     <li>Ronald Reagan (1986)</li>
@@ -40,7 +42,7 @@
     <li>Barack Obama (2011)</li>
 </ul>
 
-<h5>Scientists and Entrepreneurs</h5>
+<h4>Scientists and Entrepreneurs</h4>
 
 <ul>
     <li>Carl Sagan (1988)</li>
