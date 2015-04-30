@@ -2,7 +2,7 @@
 
 <h4>2014-15</h4>
 
-<p>This school year the TJ TSA Chapter has 38 active members that range from grades 9-12. The founding core members are all Seniors and will graduate in June of 2015 so the focus of the club has shifted to making sure that underclassmen are active participants in competitions to ensure long term success of the club. We have been teaching freshmen and sophomores how to build and what to study in order to become technologically savvy.</p>
+<p>This school year the TJ TSA Chapter has 38 active members that cover all grade levels. The founding core members are all Seniors and will graduate in June of 2015 so the focus of the club has become the underclassmen. The officer core is making sure underclassmen are active participants in competitions. We have been teaching freshmen and sophomores how to build various projects and what is important for them to know in order to become technologically savvy.</p>
 
 <p>This winter brought the most snow since TJ TSA was founded! This led to 11 snowdays and even more delays, including the Northern Regional Fair which got pushed back by two weeks. This new date caused a lot of conflicts amongst members but by coordinating project drop-offs and rides, we had a large presence and won 10 trophies!</p>
 
