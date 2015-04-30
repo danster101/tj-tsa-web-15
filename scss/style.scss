@@ -149,16 +149,12 @@ main {
 		}
 
 		h3 {
-			//			color: $primary-fade;
-			//			font-size: 2em;
-			//			margin: 0px 0px 0px 1em;
-
 			color: $white;
 			background: $primary;
 			margin-left: 0;
 			padding: .2em 0px .2em .6em;
 			border-radius: .2em .2em 0px 0px;
-			font-size: 2em;
+			font-size: 1.8em;
 		}
 
 		h4 {
@@ -465,7 +461,7 @@ a {
 		content: "\f08e";
 		font-family: "fontawesome";
 		font-size: 50%;
-		vertical-align: 25%;
+		vertical-align: super;
 		text-decoration: none;
 		margin-left: .2em;
 	}

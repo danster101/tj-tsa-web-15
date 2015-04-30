@@ -20,11 +20,10 @@
 </head>
 <?php } ?>
 
-<?php function make_header(){ ?>
+<?php function make_header($title = "TJHSST TSA"){ ?>
 <header>
-	<!--	<h1>TJHSST TSA</h1>-->
 	<img id="header-badge" src="/tsa/images/header-badge.svg" link="/" />
-	<h1 link="/">TJHSST TSA</h1>
+	<h1><?php print($title); ?></h1>
 	<div class="flex">
 		<nav>
 			<div class="drawer-indicator"><span class="fa fa-bars drawer-icon"></span>Menu</div>

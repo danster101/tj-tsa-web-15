@@ -2,11 +2,11 @@
 	<?php include("../includes.php"); ?>
 	<?php make_head("The Chapter"); ?>
 	<body>
-		<?php make_header(); ?>
+		<?php make_header("The Chapter"); ?>
 		<?php make_sidebar(); ?>
 		<main>
 			<article class="multipage">
-				<h2>The Chapter</h2>
+<!--				<h2>The Chapter</h2>-->
 
 				<div class="nav-wrapper beginning">
 					<nav>
