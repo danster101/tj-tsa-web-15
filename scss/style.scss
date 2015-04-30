@@ -71,6 +71,7 @@ body {
 	transition: margin-top $transition-medium;
 	display: flex;
 	justify-content: center;
+	flex-direction: column;
 	
 	&#home {
 		margin-top: calc(8em + 9 / 16 * (70ch + 276px));
@@ -136,10 +137,8 @@ header {
 }
 
 main {
-	float: left;
-	//	flex-grow: 1;
 	width: 70ch;
-	//	margin-left: 120px;
+	order: 1;
 
 	article {
 		padding: 1em 0px;
@@ -171,7 +170,6 @@ h2 {
 }
 
 #sidebar {
-	float: right;
 	width: 260px;
 	margin: 0px 0px 0px 16px;
 	order: 2;
@@ -486,4 +484,19 @@ a {
 		font-size: 1.2em;
 		margin-bottom: 1em;
 	}
+}
+
+footer {
+	order: 3;
+	width: 100%;
+	padding: 2.4em calc(50% - 35ch - 138px);
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background: $black-deep;
+}
+
+#content-row {
+	justify-content: center;
+	margin: 0px 1em;
 }
