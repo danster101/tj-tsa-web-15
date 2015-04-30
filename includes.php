@@ -55,8 +55,8 @@
 
 <?php function make_footer(){ ?>
 <footer>
-	<a href="http://tsaweb.org/">National TSA Homepage</a>
-	<a href="https://tjhsst.edu/">TJHSST Homepage</a>
+	<a href="http://tsaweb.org/" target="_blank">National TSA Homepage</a>
+	<a href="https://tjhsst.edu/" target="_blank">TJHSST Homepage</a>
 	<a href="/tsa/ewaste">E-waste Design Brief</a>
 	<a href="/tsa/sources">Sources</a>
 </footer>

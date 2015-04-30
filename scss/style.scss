@@ -70,9 +70,9 @@ body {
 	-webkit-transition: margin-top $transition-medium;
 	transition: margin-top $transition-medium;
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
 	flex-direction: column;
-	
+
 	&#home {
 		margin-top: calc(8em + 9 / 16 * (70ch + 276px));
 	}
@@ -107,7 +107,7 @@ header {
 		height: 6em;
 		background: $primary;
 		position: absolute;
-//		top: calc(100% - 4em);
+		//		top: calc(100% - 4em);
 		border-radius: 6em;
 	}
 
@@ -124,12 +124,12 @@ header {
 	opacity: 0;
 	pointer-events: none;
 	transition-duration: 200ms;
-	
+
 	.not-at-top & {
 		opacity: $fade;
 		pointer-events: all;
 		cursor: pointer;
-		
+
 		&:hover {
 			opacity: 1;
 		}
@@ -200,11 +200,11 @@ nav {
 	font-size: 1em;
 	color: $white;
 	fill: $white;
-	
+
 	.drawer-indicator {
 		display: none;
 		font-size: 1.2em;
-		
+
 		.drawer-icon {
 			margin-right: .4em;
 		}
@@ -294,7 +294,7 @@ nav {
 
 [link] {
 	@extend .no-select;
-	
+
 	cursor: pointer;
 }
 
@@ -423,11 +423,11 @@ nav {
 	top: 8em;
 	left: calc(50% - 35ch - 138px);
 	width: calc(70ch + 276px);
-	
+
 	.slider-container {
 		width: 100%;
 		padding-bottom: 56.25%;
-	
+
 		.slider {
 			position: absolute;
 			left: 0px;
@@ -442,7 +442,7 @@ nav {
 	width: 100%;
 	padding-bottom: 75%;
 	position: relative;
-	
+
 	.calendar {
 		position: absolute;
 		left: 0px;
@@ -463,13 +463,13 @@ a {
 		text-decoration: none;
 		margin-left: .2em;
 	}
-	
+
 	&:link,
 	&:visited {
 		text-decoration: none;
 		color: $primary;
 	}
-	
+
 	&:hover,
 	&:active {
 		text-decoration: underline;
@@ -479,7 +479,7 @@ a {
 .student-project-list {
 	list-style-type: none;
 	color: $black-dark;
-	
+
 	li {
 		font-size: 1.2em;
 		margin-bottom: 1em;
@@ -487,13 +487,36 @@ a {
 }
 
 footer {
+	-webkit-box-ordinal-group: 4;
+	-webkit-order: 3;
+	-ms-flex-order: 3;
 	order: 3;
 	width: 100%;
 	padding: 2.4em calc(50% - 35ch - 138px);
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
 	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	-ms-flex-direction: row;
 	flex-direction: row;
-	justify-content: space-between;
+	-webkit-justify-content: space-around;
+	-ms-flex-pack: distribute;
+	justify-content: space-around;
 	background: $black-deep;
+	color: $white;
+	-webkit-box-flex: 1;
+	-webkit-flex-grow: 1;
+	-ms-flex-positive: 1;
+	flex-grow: 1;
+
+	a:link,
+	a:visited {
+		color: $white;
+		text-decoration: underline;
+	}
 }
 
 #content-row {

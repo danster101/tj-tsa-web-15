@@ -111,6 +111,7 @@ header {
 		text-align: left;
 		padding-top: .6em;
 		opacity: 1;
+		-webkit-transition-duration: $transition-medium;
 		transition-duration: $transition-medium;
 	}
 
@@ -128,6 +129,7 @@ header {
 		text-align: right;
 		padding-top: .6em;
 		opacity: 1;
+		-webkit-transition-duration: $transition-medium;
 		transition-duration: $transition-medium;
 	}
 	
@@ -166,4 +168,26 @@ header {
 
 body#home {
 	margin-top: 20em;
+}
+
+footer {
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	
+	a {
+		margin-top: .2em;
+	}
 }
