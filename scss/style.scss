@@ -206,6 +206,15 @@ nav {
 	font-size: 1em;
 	color: $white;
 	fill: $white;
+	
+	.drawer-indicator {
+		display: none;
+		font-size: 1.2em;
+		
+		.drawer-icon {
+			margin-right: .4em;
+		}
+	}
 
 	.multipage & {
 		color: $black-dark;
@@ -287,6 +296,12 @@ nav {
 			}
 		}
 	}
+}
+
+[link] {
+	@extend .no-select;
+	
+	cursor: pointer;
 }
 
 .return-to-top {

@@ -5,7 +5,7 @@
 		<?php make_header(); ?>
 		<?php make_sidebar(); ?>
 		<main>
-			<article class="multipage">
+			<article>
 				<h2>Projects</h2>
 			</article>
 		</main>

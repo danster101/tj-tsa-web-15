@@ -4,6 +4,7 @@
 
 	<link rel="stylesheet" type="text/css" href="/tsa/css/reset.css" />
 	<link rel="stylesheet" type="text/css" href="/tsa/css/style.css" />
+	<link rel="stylesheet" type="text/css" media="screen and (max-device-width: 800px)" href="/tsa/css/mobile.css" />
 
 	<link href="//fonts.googleapis.com/css?family=Martel+Sans:800" rel="stylesheet" type="text/css" />
 	<link href="//fonts.googleapis.com/css?family=Magra:400,700" rel="stylesheet" type="text/css" />
@@ -14,16 +15,19 @@
 	<script src="/tsa/js/header.js"></script>
 	<script src="/tsa/js/links.js"></script>
 	<script src="/tsa/js/tabs.js"></script>
+	<script src="/tsa/js/mobile-nav.js"></script>
+	<script src="/tsa/js/touch-click.js"></script>
 </head>
 <?php } ?>
 
 <?php function make_header(){ ?>
 <header>
 	<!--	<h1>TJHSST TSA</h1>-->
-	<img id="header-badge" src="/tsa/images/header-badge.svg" />
-	<h1>TJHSST TSA</h1>
+	<img id="header-badge" src="/tsa/images/header-badge.svg" link="/" />
+	<h1 link="/">TJHSST TSA</h1>
 	<div class="flex">
 		<nav>
+			<div class="drawer-indicator"><span class="fa fa-bars drawer-icon"></span>Menu</div>
 			<ul>
 				<li link="/"><span class="fa nav-icon fa-home"></span>Home</li>
 				<li link="/chapter"><span class="fa nav-icon fa-sitemap"></span>The Chapter</li>

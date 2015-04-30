@@ -7,6 +7,10 @@ $(document).ready(function(){
 				width: $(".multipage nav .active").outerWidth(),
 				height: $(".multipage nav .active").outerHeight()
 			});
+			
+			if($(".multipage nav .nav-indicator").offsetParent().offsetParent().hasClass("nav-wrapper")){
+				$(".multipage nav .nav-indicator").css("left", $(".multipage nav .active").position().left + $(".multipage nav").scrollLeft());
+			}
 		}
 	}
 
