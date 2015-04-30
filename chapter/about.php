@@ -1,3 +1,7 @@
+<figure float="left" style="width: 600px">
+    <img src="/tsa/images/chapter/about/header-2013b.jpg" width="200" />
+</figure>
+
 <h3>This Year in TSA</h3>
 
 <h4>Coming Up</h4>
@@ -19,6 +23,10 @@
 <p>When the TSA season began again in fall 2013, the chapter had gained much popularity and had established itself as a highly competitive club. Unlike the previous year, a strict applications process was used to determine members, and about 30% of applicants were rejected, producing a competing team of about 34 students. The chapter also had a different sponsor and meeting location than the previous year.</p>
 
 <p>TJ TSA delivered once again at the 2014 Northern Regional Fair, bringing home 18 trophies and 13 additional finalist finishes totalling 31 top 10 event finishes, notably including a first-second-third sweep in Debating Technological Issues.</p>
+
+<figure float="left" style="width: 200px">
+    <img src="/tsa/images/chapter/about/20150430_141757.jpg" width="200" />
+</figure>
 
 <p>Outdoing their regional performance and gaining experience competing at the state level, TJ TSA went to Technosphere 2014 and won 19 trophies and 18 additional finalist awards to end up with 37 top 10 results. For the second consecutive year, the chapter won the <i>Arvid W. Van Dyke Outstanding School Award</i>.</p>
 
