@@ -5,7 +5,7 @@
 <h4>2014 Technosphere</h4>
 
 <figure>
-    <img src="/tsa/images/techno2014a.jpg" />
+    <img src="/tsa/images/chapter/awards/techno2014a.jpg" />
 </figure>
 
 <div>
@@ -131,7 +131,7 @@
 
 <h4>2014 Northern Regional Fair</h4>
 
-<img src="/tsa/images/regional-awards.jpg" width="100%" />
+<img src="/tsa/images/chapter/awards/regional-awards.jpg" width="100%" />
 
 <div>
     <div>
@@ -234,7 +234,7 @@
 
 <h4>2013 Technosphere</h4>
 
-<img src="/tsa/images/techno2013.jpg" width="100%" />
+<img src="/tsa/images/chapter/awards/techno2013.jpg" width="100%" />
 
 <div>
     <div>
