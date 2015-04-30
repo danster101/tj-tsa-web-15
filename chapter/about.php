@@ -1,10 +1,10 @@
-<figure float="left" style="width: 600px">
-    <img src="/tsa/images/chapter/about/header-2013b.jpg" width="200" />
-</figure>
-
 <h3>This Year in TSA</h3>
 
 <h4>Coming Up</h4>
+
+<figure float="right">
+    <img src="/tsa/images/chapter/about/header-2013b.jpg" width="200" />
+</figure>
 
 <p>TJ TSA is currently finishing preparations for Virginia Technosphere 2015 where it hopes to make it a hat-trick and win the <i>Arvid W. Van Dyke Outstanding School Award</i> for the third straight year!</p>
 
