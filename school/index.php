@@ -7,7 +7,7 @@
 		<main>
 			<article class="multipage">
 				<h2>Thomas Jefferson High School for Science and Technology</h2>
-				<div class="nav-wrapper">
+				<div class="nav-wrapper beginning">
 
 					<nav>
 						<div class="nav-indicator"></div>

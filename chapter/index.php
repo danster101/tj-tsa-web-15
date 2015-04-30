@@ -8,7 +8,7 @@
 			<article class="multipage">
 				<h2>The Chapter</h2>
 
-				<div class="nav-wrapper">
+				<div class="nav-wrapper beginning">
 					<nav>
 						<div class="nav-indicator"></div>
 						<ul>

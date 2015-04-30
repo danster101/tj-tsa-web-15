@@ -8,7 +8,7 @@
 			<article class="multipage">
 				<h2>Technology Student Assocation</h2>
 
-				<div class="nav-wrapper">
+				<div class="nav-wrapper beginning">
 					<nav class="page-subnav">
 						<div class="nav-indicator"></div>
 						<ul>

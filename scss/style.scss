@@ -464,9 +464,10 @@ a {
 	&:link[target=_blank]:after {
 		content: "\f08e";
 		font-family: "fontawesome";
-		font-size: 75%;
+		font-size: 50%;
 		vertical-align: 25%;
 		text-decoration: none;
+		margin-left: .2em;
 	}
 	
 	&:link,
