@@ -12,7 +12,7 @@
 
 <h4>2014-15</h4>
 
-<figure float="left" style="width: 600px">
+<figure float="left" style="width: 200px">
     <img src="/tsa/images/chapter/about/gradclip.jpg" width="200px" />
 </figure>
 
