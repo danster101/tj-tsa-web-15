@@ -2,13 +2,13 @@
 
 <p><i>Italicized</i> names and teams were finalists in their respective competitions.</p>
 
-<h4>2015 Northern Regional Fair</h4>
+<h4>Northern Regional Fair 2015 - <a href="http://virginiatsa.org/assets/2012/06/Northern2015.html" target="_blank">Full Results</a></h4>
 
-<div>
+<div class="awards">
     <div>
         <h5>Career Preparation</h5>
         <p><b>Asha Krishnakumar</b> - 1st</p>
-        <p><i>Suay Ratna</i> - 4th</p>
+        <p><i>Suay Ratna</i></p>
     </div>
     <div>
         <h5>Debating Technological Issues</h5>
@@ -23,7 +23,7 @@
         <p><i>Raksha Pothapragada</i></p>
     </div>
     <div>
-        <h5>Essas on Technology</h5>
+        <h5>Essays on Technology</h5>
         <p><b>Uzma Rentai</b> - 1st</p>
         <p><i>Vaishnavi Nara</i></p>
         <p><i>Rurian Xun</i></p>
@@ -41,7 +41,7 @@
     </div>
     <div>
         <h5>Music Production</h5>
-        <p><i>Caelan Barranta, My-Linh Budzien, and Adam Kim</i> - 4th</p>
+        <p><i>Caelan Barranta, My-Linh Budzien, and Adam Kim</i></p>
     </div>
     <div>
         <h5>Photographic Technology</h5>
@@ -64,11 +64,43 @@
     </div>
 </div>
 
-<figure>
-    <img src="/tsa/images/chapter/awards/techno2014a.jpg" />
-</figure>
+<h4>National Conference 2014 - <a href="https://www.thinkregistration.com/tsa1314/results.aspx" target="_blank">Full Results</a></h4>
 
-<div>
+<div class="awards">
+    <div>
+        <h5>Desktop Publishing</h5>
+        <p><i>Pranay Singh</i></p>
+    </div>
+    <div>
+        <h5>Future Technology Teacher</h5>
+        <p><b>Amee Kapadia</b> - 3rd</p>
+    </div>
+    <div>
+        <h5>Music Production</h5>
+        <p><b>TJHSST Team</b> - 1st</p>
+    </div>
+    <div>
+        <h5>Open Source Software Development</h5>
+        <p><i>Matthew Savage, Danial Hussain, and Kyle Herndon</i></p>
+    </div>
+    <div>
+        <h5>Technical Sketching and Application</h5>
+		<p><b>Matthew Savage</b> - 1st</p>
+        <p><i>Kyle Herndon</i></p>
+    </div>
+    <div>
+        <h5>Technology Bowl, Written</h5>
+        <p><b>Lucas Lin</b> - 1st</p>
+    </div>
+    <div>
+        <h5>Webmaster</h5>
+        <p><i>Matthew Savage and Danial Hussain</i></p>
+    </div>
+</div>
+
+<h4>Technosphere 2014 - <a href="http://virginiatsa.org/assets/2012/06/TechnolosphereWinners20141.html" target="_blank">Full Results</a></h4>
+
+<div class="awards">
     <div>
         <h5>Animatronics</h5>
         <p><i>Adam Kim, Shrikant Mishra, Peter Zhao, Nathan Kim, and Nayana Suvarna</i></p>
@@ -93,7 +125,7 @@
     <div>
         <h5>Desktop Publishing</h5>
         <p><b>Pranay Singh</b> - 1st</p>
-        <p><b>Raksha Pothapragada</b> - 4th</p>
+        <p><b>Raksha Pothapragada</b></p>
     </div>
     <div>
         <h5>Engineering Design</h5>
@@ -178,8 +210,8 @@
     <div>
         <h5>William T. Reed Most Competitive Technosphere Participant Award</h5>
         <p><b>Kyle Herndon</b> - 2nd</p>
-        <p><b>Matthew Savage</b> - 6th</p>
-        <p><b>Lucas Lin</b> - 7th</p>
+        <p><b>Matthew Savage</b></p>
+        <p><b>Lucas Lin</b></p>
     </div>
     <div>
         <h5>Arvid W. Van Dyke Outstanding School Award</h5>
@@ -187,13 +219,9 @@
     </div>
 </div>
 
-<p><a href="http://virginiatsa.org/assets/2012/06/TechnolosphereWinners20141.html" target="_blank">Full 2014 Technosphere Results</a></p>
+<h4>Northern Regional Fair 2014 - <a href="http://virginiatsa.org/assets/2012/06/Northern2014a.html" target="_blank">Full Results</a></h4>
 
-<h4>2014 Northern Regional Fair</h4>
-
-<img src="/tsa/images/chapter/awards/regional-awards.jpg" width="100%" />
-
-<div>
+<div class="awards">
     <div>
         <h5>Career Preparation</h5>
         <p><b>Asha Krishnakumar</b> - 2nd</p>
@@ -251,7 +279,7 @@
     </div>
     <div>
         <h5>Promotional Graphics</h5>
-        <p><b>Ellis Tsung</b> - 1st <a href="projects/#feprographic" class="project-link">Project</a></p>
+        <p><b>Ellis Tsung</b> - 1st </p>
         <p><i>Peter Zhao</i></p>
     </div>
     <div>
@@ -260,17 +288,15 @@
     </div>
     <div>
         <h5>Video Game Design</h5>
-        <p><b>Ben Zhang, Ellis Tsung, and Zach Wade</b> - 2nd <a href="projects/#robox" class="project-link">Project</a></p>
+        <p><b>Ben Zhang, Ellis Tsung, and Zach Wade</b> - 2nd </p>
         <p><i>Danial Hussain, Kyle Herndon, Lucas Lin, and Matthew Savage</i></p>
         <p><i>Nathan Kim, Patrick Do, Peter Zhao, Shrikant Mishra, and Siva Somayyajula</i></p>
     </div>
 </div>
 
-<p><a href="http://virginiatsa.org/assets/2012/06/Northern2014a.html" target="_blank">Full 2014 Regional Fair Results</a></p>
+<h4>National Conference 2013 - <a href="https://www.thinkregistration.com/tsa1213/results.aspx" target="_blank">Full Results</a></h4>
 
-<h4>2013 National Conference</h4>
-
-<div>
+<div class="awards">
     <div>
         <h5>Future Technology Teacher</h5>
         <p><b>Matthew Barbano</b> - 2nd</p>
@@ -290,13 +316,9 @@
     </div>
 </div>
 
-<p><a href="https://www.thinkregistration.com/tsa1213/results.aspx" target="_blank">Full 2013 National Conference Results</a></p>
+<h4>2013 Technosphere - <a href="http://virginiatsa.org/assets/2012/06/TSA-Awards4.html" target="_blank">Full Results</a></h4>
 
-<h4>2013 Technosphere</h4>
-
-<img src="/tsa/images/chapter/awards/techno2013.jpg" width="100%" />
-
-<div>
+<div class="awards">
     <div>
         <h5>Biotechnology Design</h5>
         <p><b>Sruthi Jayuaraman, Raksha Pothapragada, Rohan Pandit, Pranay Singh, and Dhruv Gupta</b> - 3rd</p>
@@ -348,7 +370,7 @@
     </div>
     <div>
         <h5>Open Source Software Development</h5>
-        <p><b>Matthew Savage and Danial Hussain</b> - 3rd <a href="projects/#dimcalc" class="project-link">Project</a></p>
+        <p><b>Matthew Savage and Danial Hussain</b> - 3rd </p>
     </div>
     <div>
         <h5>Principles of Technology</h5>
@@ -366,12 +388,12 @@
     </div>
     <div>
         <h5>Webmaster</h5>
-        <p><b>Matthew Savage, Danial Hussain, and Zach Wade</b> - 2nd <a href="projects/#web2013" class="project-link">Project</a></p>
+        <p><b>Matthew Savage, Danial Hussain, and Zach Wade</b> - 2nd </p>
     </div>
     <div>
         <h5>William T. Reed Most Competitive Technosphere Participant Award</h5>
         <p><b>Rohan Pandit</b> - 1st</p>
-        <p><b>Lucas Lin</b> - 5th</p>
+        <p><b>Lucas Lin</b></p>
     </div>
     <div>
         <h5>Arvind W. Van Dyke Outstanding School Award</h5>
@@ -379,11 +401,9 @@
     </div>
 </div>
 
-<p><a href="http://virginiatsa.org/assets/2012/06/TSA-Awards4.html" target="_blank">Full 2013 Technosphere Results</a></p>
+<h4>2013 Northern Regional Fair - <a href="http://virginiatsa.org/assets/2012/06/NO_2013.html" target="_blank">Full Results</a></h4>
 
-<h4>2013 Northern Regional Fair</h4>
-
-<div>
+<div class="awards">
     <div>
         <h5>Career Preparation</h5>
         <p><b>Asha Krishnakumar</b> - 1st</p>
@@ -458,5 +478,3 @@
         <p><i>Aditya Ponukumati, Siva Somayyajula, and Rishub Jain</i></p>
     </div>
 </div>
-
-<p><a href="http://virginiatsa.org/assets/2012/06/NO_2013.html" target="_blank">Full 2013 Regional Results</a></p>
