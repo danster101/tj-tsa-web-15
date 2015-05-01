@@ -14,8 +14,8 @@
 <p>In Design and Technology, freshmen learn the basic skills of electronics (breadboarding simple LED and resistor network circuits and measuring voltage with an ohmeter), use a Picaxe Microcontroller to build robots such as "hill climbers" and "maze solvers" in order to win in class competitions, and learn about GPS and GIS systems. Biology honors covers topics ranging from photosynthesis to the human endocrine system, to population growth factors and genetics. English 9 honors is a balance between traditional literary analysis of classic works such as <i>The Odyssey</i> and the development of scientific writing skills such as using primary source documents and interpreting scholarly articles.</p>
 
 <figure float="left" style="width: 200px">
-    <img src="/tsa/images/school/Robo Lab 7 Wheel" width="200px" />
-    <figcaption>A student project from the Digial Electronics elective.</figcaption>
+    <img src="/tsa/images/school/Robo Lab 7 Wheel.NG" width="200px" />
+    <figcaption>A CAD wheel design for a freshmen robot.</figcaption>
 </figure>
 
 <p>The program's focal point is the IBET Project, a year-long group research and experimentation project in which students work in small (3-4 student) groups to research and perform an experiment on a macro- or micro-invertebrate (such as investigating the effects of caffine on planaria).</p>
