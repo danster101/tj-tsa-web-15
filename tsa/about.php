@@ -46,4 +46,4 @@
 
 <p>Since then, TSA has drastically expanded, gaining membership, establishing new chapters all across the country. TSA has formed partnerships with such organizations as the American Cancer Society, the International Technology and Engineering Educators Association, Project Lead The Way, and VEX Robotics, and, through those partnerships, has launched STEM initiatives, including TEAMS (Tests of Engineering Aptitude, Mathematics and Science) and the Verizon Innovative App Challenge, in addition to the wide range of competitive events, showcased at annual conferences at local, state, and national levels.</p>
 
-<p>Last year, 2013, marked TSA's 35th anniversary, and framed the largest national conference to date in Orlando, Florida. This year's national conference, to be hosted in Washington, D.C., promises to be even greater.</p>
+<p>Last year, 2014, marked TSA's 36th anniversary, and framed the largest national conference to date in Washington D.C. This year's national conference, to be hosted in Dallas, Texas, promises to be even greater.</p>
