@@ -22,10 +22,10 @@
 					<img id="cube" src="/tsa/images/cube.png" />
 					<div id="welcome-text">Welcome to TJHSST TSA</div>
 				</li>
-				<li id="renovation">
+				<li id="renovation" link="/school/">
 					<img id="tj-reno-sketch" src="/tsa/images/renovation.jpg" />
-					<div id="new-tjhsst">Welcome to the new TJHSST.</div>
-					<div id="read-more">See what's new in the renovated tech labs &raquo;</div>
+					<div id="new-tjhsst">Welcome to TJHSST.</div>
+					<div id="read-more">Learn more about who we are and what we do &raquo;</div>
 				</li>
 				<li id="spintwo" link="/projects/#spintwo">
 					<img id="spintwo-bg" src="/tsa/images/spintwo-bg.png" />
