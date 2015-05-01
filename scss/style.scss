@@ -154,6 +154,7 @@ main {
 			padding: .2em 0px .2em .6em;
 			border-radius: .2em .2em 0px 0px;
 			font-size: 1.8em;
+			clear: both;
 		}
 
 		h4 {
@@ -522,4 +523,9 @@ footer {
 #content-row {
 	justify-content: center;
 	margin: 0px 1em;
+}
+
+figcaption {
+	color: $black-fade;
+	margin-top: .4em;
 }
