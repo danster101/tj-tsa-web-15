@@ -14,7 +14,7 @@
 <p>In Design and Technology, freshmen learn the basic skills of electronics (breadboarding simple LED and resistor network circuits and measuring voltage with an ohmeter), use a Picaxe Microcontroller to build robots such as "hill climbers" and "maze solvers" in order to win in class competitions, and learn about GPS and GIS systems. Biology honors covers topics ranging from photosynthesis to the human endocrine system, to population growth factors and genetics. English 9 honors is a balance between traditional literary analysis of classic works such as <i>The Odyssey</i> and the development of scientific writing skills such as using primary source documents and interpreting scholarly articles.</p>
 
 <figure float="left" style="width: 200px">
-    <img src="/tsa/images/school/Robo Lab 7 Wheel.NG" width="200px" />
+    <img src="/tsa/images/school/Robo Lab 7 Wheel.PNG" width="200px" />
     <figcaption>A CAD wheel design for a freshmen robot.</figcaption>
 </figure>
 
