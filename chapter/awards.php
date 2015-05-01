@@ -2,7 +2,67 @@
 
 <p><i>Italicized</i> names and teams were finalists in their respective competitions.</p>
 
-<h4>2014 Technosphere</h4>
+<h4>2015 Northern Regional Fair</h4>
+
+<div>
+    <div>
+        <h5>Career Preparation</h5>
+        <p><b>Asha Krishnakumar</b> - 1st</p>
+        <p><i>Suay Ratna</i> - 4th</p>
+    </div>
+    <div>
+        <h5>Debating Technological Issues</h5>
+        <p><b>Pranavi Nara and Navya Kalale</b> - 1st</p>
+        <p><b>Raksha Pothapragada and Sruthi Jayaraman</b> - 2nd</p>
+        <p><b>Katherine Barbano and Pranay Singh</b> - 3rd</p>
+    </div>
+    <div>
+        <h5>Desktop Publishing</h5>
+        <p><b>Varun Iyengar</b> - 3rd</p>
+        <p><i>George Perry</i></p>
+        <p><i>Raksha Pothapragada</i></p>
+    </div>
+    <div>
+        <h5>Essas on Technology</h5>
+        <p><b>Uzma Rentai</b> - 1st</p>
+        <p><i>Vaishnavi Nara</i></p>
+        <p><i>Rurian Xun</i></p>
+        <p><i>Suchet Taori</i></p>
+    </div>
+    <div>
+        <h5>Extemporaneous Presentation</h5>
+        <p><i>Kyle Herndon</i></p>
+        <p><i>Michael Krause</i></p>
+        <p><i>Paarth Jain</i></p>
+    </div>
+    <div>
+        <h5>Manufacturing Prototype</h5>
+        <p><i>Caelan Barranta, My-Linh Budzien, Adam Kim, Suchet Taori, and Amee Kapadia</i></p>
+    </div>
+    <div>
+        <h5>Music Production</h5>
+        <p><i>Caelan Barranta, My-Linh Budzien, and Adam Kim</i> - 4th</p>
+    </div>
+    <div>
+        <h5>Photographic Technology</h5>
+        <p><b>Kava Koparapu</b> - 2nd</p>
+        <p><b>Jiaxuan Qin</b> - 3rd</p>
+        <p><i>Justin Redman</i></p>
+    </div>
+    <div>
+        <h5>Prepared Presentation</h5>
+        <p><b>Michael Krause</b> - 1st</p>
+        <p><i>Paarth Jain</i></p>
+    </div>
+    <div>
+        <h5>System Control Technology</h5>
+        <p><b>Peter Zhao, Siva Somayyajula, and Soham Ray</b> - 1st</p>
+    </div>
+    <div>
+        <h5>Video Game Design</h5>
+        <p><i>Ben Zhang, Ellis Tsung, Zach Wade, and Siva Somayyajula</i></p>
+    </div>
+</div>
 
 <figure>
     <img src="/tsa/images/chapter/awards/techno2014a.jpg" />
