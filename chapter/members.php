@@ -1,4 +1,4 @@
-<p>Mouse over anyone in the picture to view their name, grade, and position within the chapter.</p>
+<p>Mouse over anyone to view their name, grade, and position within the chapter.</p>
 
 <div class="member-info-widget">
 	<img src="../images/team.jpg" class="blur ar-content"/>
