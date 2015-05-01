@@ -1,12 +1,21 @@
 <h3>TSA Core Values</h3>
 
-<p><b>TSA</b>, or <b>Technology Student Association</b>, is a technology-themed student group that provides students with opportunities in STEM via a variety of activities including co-curricular activities, service projects, and competitive events.</p>
+<figure float="left" style="width: 200px">
+    <img src="/tsa/images/organization/tsa-logo.png" width="200px" />
+</figure>
+
+<p>TSA, or Technology Student Association, is a technology-themed student group that provides students with opportunities in STEM via a variety of activities including co-curricular activities, service projects, and competitive events.</p>
 
 <h4>Mission</h4>
 
 <p>On <a target="_blank" href="http://tsaweb.org">its website</a>, TSA provides the following mission for what it hopes to accomplish:</p>
 
 <p class="indented"><i>"The Technology Student Association fosters personal growth, leadership, and opportunities in technology, innovation, design, and engineering. Members apply and integrate science, technology, engineering and mathematics concepts through co-curricular activities, competitive events and related programs."</i></p>
+
+<figure float="right" style="width: 250px">
+    <img src="/tsa/images/organization/systech.jpg" width="250px" />
+    <figcaption>2014 System Control Technology.</figcaption>
+</figure>
 
 <h4>Motto</h4>
 
@@ -25,6 +34,11 @@
 </i>
 
 <h3>History</h3>
+
+<figure float="right" style="width: 200px">
+    <img src="/tsa/images/organization/aiasa.png" width="200px" />
+    <figcaption>AIASA Logo.</figcaption>
+</figure>
 
 <p>In 1978, the American Industrial Arts Student Association (AIASA) separated from the American Industrial Arts Association, becoming financially independent and recognized as the official vocational student organization for industrial arts students. One year later, AIASA held its first national conference, separate from the AIAA.</p>
 
