@@ -13,9 +13,9 @@
 
     <li><b>Debating Technological Issues</b>:  Teams of two prepare to be pitted against each other in debates, placed on opposite sides of a technological subtopic.</li>
 
-    <li><b>Desktop Publishing</b>:  Competitors produce a ‘publication’ including a news release, a three-column newsletter, and a poster, and work on-site to solve a problem, demonstrating proficiency at using computers to manage in-house publishing materials.</li>
+    <li><b>Desktop Publishing</b>:  Competitors produce a 'publication' including a news release, a three-column newsletter, and a poster, and work on-site to solve a problem, demonstrating proficiency at using computers to manage in-house publishing materials.</li>
 
-    <li><b>Digital Video Production</b>:  Teams use their multimedia expertise to craft a creative, appealing, and informative digital video or film that highlights the year’s published theme.</li>
+    <li><b>Digital Video Production</b>:  Teams use their multimedia expertise to craft a creative, appealing, and informative digital video or film that highlights the year's published theme.</li>
 
     <figure float="left" style="width: 150px">
         <img src="/tsa/images/organization/dragster.jpg" width="150px" />
@@ -34,20 +34,20 @@
 
     <li><b>Music Production</b>:  Teams compose an inspiring, motivating, emotional, fabulous, exciting musical piece, designed to be played during the TSA national conference.</li>
 
-    <li><b>Photographic Technology</b>:  Competitors take photos, process them, and then produce digital prints, depicting the year’s published theme. On-site, semifinalists must demonstrate their skills by capturing images and using multimedia programs to develop a presentation.</li>
+    <li><b>Photographic Technology</b>:  Competitors take photos, process them, and then produce digital prints, depicting the year's published theme. On-site, semifinalists must demonstrate their skills by capturing images and using multimedia programs to develop a presentation.</li>
 
     <figure float="right" style="width: 200px">
         <img src="/tsa/images/organization/prographics-small.png" width="200px" />
         <figcaption>Ellis Tsung's 2014 Promotional Graphics submissoin.</figcaption>
     </figure>
 
-    <li><b>Prepared Presentation</b>:  Competitors prepare and then deliver an oral presentation, with visual / audio enhancement, based on the year’s published theme.</li>
+    <li><b>Prepared Presentation</b>:  Competitors prepare and then deliver an oral presentation, with visual / audio enhancement, based on the year's published theme.</li>
 
     <li><b>Promotional Graphics</b>:  Competitors design and then create a graphic to promote participation in a selected TSA event.</li>
 
     <li><b>System Control Technology</b>:  Teams work on-site, developing a computer-controlled model to solve a problem, usually with an industrial theme. Team members analyze the problem, design and build the computerized mechanical model, and explain the program and mechanical features of their solution.</li>
 
-    <li><b>Transportation Modeling</b>:  Competitors, using their engineering prowess, design and build a scale model of a vehicle, powered by CO2, that meets the year’s published design theme.</li>
+    <li><b>Transportation Modeling</b>:  Competitors, using their engineering prowess, design and build a scale model of a vehicle, powered by CO2, that meets the year's published design theme.</li>
 
     <li><b>Video Game Design</b>:  Teams of up to five are tasked with building an E-rated video game.  The game may have a subject of the team's choosing, but extra points are awarded for exemplary educational or social value.</li>
 </ul>
@@ -74,7 +74,7 @@
 
     <li><b>Engineering Design</b>:  Teams design and fabricate a device to meet the needs of a specific person with a disability. Team members document and justify the problem and solution through a model/prototype, display, and design notebook, noting their solutions impact on society. Semifinalists give a timed presentation demonstrating the problem and their solution.</li>
 
-    <li><b>Fashion Design</b>:  Teams perform research and then develop and create garment designs, mock-ups, and portfolios, reflecting the year’s published theme. Semifinalists participate on-site by presenting their potential garment designs to judges on a "TSA runway."</li>
+    <li><b>Fashion Design</b>:  Teams perform research and then develop and create garment designs, mock-ups, and portfolios, reflecting the year's published theme. Semifinalists participate on-site by presenting their potential garment designs to judges on a "TSA runway."</li>
 
     <li><b>Future Technology Teacher</b>:  Competitors choose three well-known colleges or universities which offer majors for technology education, and write simulated college essays explaining why they wish to become a technology teacher, and what they would contribute to the field. Competitors also develop and present a simulated lesson plan.</li>
 
