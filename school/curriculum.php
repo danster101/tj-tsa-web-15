@@ -63,6 +63,11 @@
 
 <p>The Senior Technical Research Labs are:</p>
 
+<figure float="right" style="width: 250px">
+    <img src="/tsa/images/school/chem.JPG" width="250px" />
+    <figcaption>Students working in the Chemical Analysis Lab.</figcaption>
+</figure>
+
 <ul class="arrow-bullet">
     <li>Astronomy &amp; Astrophysics</li>
     <li class="highlight-right">Automation &amp; Robotics</li>
@@ -84,6 +89,10 @@
 <p>For full descriptions on every lab check out: <a target="_blank" href="https://tjhsst.edu/research-academics/research-labs/index.html">this site</a>.</p>
 
 <h3>Thomas Jefferson Symposium to Advance Research (tjSTAR)</h3>
+
+<figure float="left" style="width: 250px">
+    <img src="/tsa/images/school/tjstar-logo.png" width="250px" />
+</figure>
 
 <p>tjSTAR is an annual event that is hosted at Thomas Jefferson. The school day is divided into 7 sessions where students do a combination of watch other student presentations, present their own projects, view demonstrations, listen to guest presenters and student panels, or participate in design challenges. Many guests including organizations like the CIA and companies like Northrop Grumman, Lockeed Martin, and Ratheon come to demo their new technologies to students.</p>
     
