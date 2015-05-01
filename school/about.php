@@ -26,16 +26,17 @@
 
 <p>From 1986 to 2014, Thomas Jefferson has had countless key figures in all fields of study and research visit to speak and interact with the student body. Below are some of the key speakers that have visited:</p>
 
-<figure float="right" style="width: 200px">
-    <img src="/tsa/images/school/obama.jpg" width="200px" />
-    <figcaption>President Obama signs a patent bill into law.</figcaption>
-</figure>
-
 <h4>Politicians</h4>
 
 <ul>
     <li>Ronald Reagan (1986)</li>
     <li>Al Gore (1999)</li>
+
+    <figure float="right" style="width: 300px">
+        <img src="/tsa/images/school/obama.jpg" width="300px" />
+        <figcaption>President Obama signs a patent bill into law.</figcaption>
+    </figure>
+
     <li>Yoshiro Mori (2001)</li>
     <li>Arne Duncan (2009)</li>
     <li>Steven Chu (2009)</li>
