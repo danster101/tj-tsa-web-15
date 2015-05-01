@@ -6,6 +6,11 @@
 
 <p>IBET is a teamed program that teaches freshmen the importance of scientific writing in order to convey the details of experimentation results and technological innovations. The students learn in the same group of students for three consecutive block periods moving between the three classrooms.</p>
 
+<figure float="right" style="width: 200px">
+    <img src="/tsa/images/school/ibet-robo.jpg" width="200px" />
+    <figcaption>A robot design in progress in freshmen tech.</figcaption>
+</figure>
+
 <p>In Design and Technology, freshmen learn the basic skills of electronics (breadboarding simple LED and resistor network circuits and measuring voltage with an ohmeter), use a Picaxe Microcontroller to build robots such as "hill climbers" and "maze solvers" in order to win in class competitions, and learn about GPS and GIS systems. Biology honors covers topics ranging from photosynthesis to the human endocrine system, to population growth factors and genetics. English 9 honors is a balance between traditional literary analysis of classic works such as <i>The Odyssey</i> and the development of scientific writing skills such as using primary source documents and interpreting scholarly articles.</p>
 
 <p>The program's focal point is the IBET Project, a year-long group research and experimentation project in which students work in small (3-4 student) groups to research and perform an experiment on a macro- or micro-invertebrate (such as investigating the effects of caffine on planaria).</p>
@@ -42,12 +47,6 @@
 
     <li><b>Advanced Prototyping Processes</b>: A semester introduction to processes in manufacturing, production, and systems engineering.</li>
 
-    <li><b>Specialized Computer Assisted Design</b>: A semester exploration of computer assisted design using current programs such as Autodesk Inventor.</li>
-
-    <li><b>Prototyping Development and Processes</b>: A semester course outlining the use of different materials and using advanced equipment to prototype, experiment with, and develop a product.</li>
-
-    <li><b>Introduction to Engineering</b>: A year long course that serves as an introduction to engineering history, patents and inventions, CAD, aerodynamics, statistics, structural engineering, and modeling.</li>
-
     <li><b>Architectural Drawing and Design</b>: A semester course allowing students to explore architecture and create architectural drawings.</li>
 
     <li><b>Conventional Energy Systems (Energy Systems 1)</b>: A semester focusing on topics such as the history of energy sources and current energy systems and implementations.</li>
@@ -81,6 +80,8 @@
 </ul>
 
 <p>Each lab is specially equipped with tools to aid students on their longterm year-log Senior Research Projects on a topic of their choice. As an alternative to the Senior Research Porject, a student can apply for mentorship where they leave school early to work under a school-approved mentor on research projects in operational labratories.</p>
+
+<p>For full descriptions on every lab check out: <a target="_blank" href="https://tjhsst.edu/research-academics/research-labs/index.html">this site</a>.</p>
 
 <h3>Thomas Jefferson Symposium to Advance Research (tjSTAR)</h3>
 

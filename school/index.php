@@ -14,6 +14,7 @@
 								<li load="about" class="active"><span class="fa nav-icon fa-info-circle"></span>About</li>
 								<li load="curriculum"><span class="fa nav-icon fa-book"></span>Curriculum</li>
 								<li load="extracurriculars"><span class="fa nav-icon fa-futbol-o"></span>Extracurriculars</li>
+                                <li load="faculty"><span class="fa nav-icon fa-apple"></span>Faculty</li>
 								<li load="student-projects"><span class="fa nav-icon fa-cogs"></span>Student Projects</li>
 							</ul>
 						</nav>
@@ -31,6 +32,10 @@
 						<?php include("extracurriculars.php"); ?>
 					</div>
 
+                    <div class="content hidden" id="faculty">
+						<?php include("faculty.php"); ?>
+					</div>
+                    
 					<div class="content hidden" id="student-projects">
 						<?php include("student-projects.php"); ?>
 					</div>
