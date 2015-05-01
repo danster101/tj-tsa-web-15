@@ -1,3 +1,5 @@
+<h3>TSA Core Values</h3>
+
 <p><b>TSA</b>, or <b>Technology Student Association</b>, is a technology-themed student group that provides students with opportunities in STEM via a variety of activities including co-curricular activities, service projects, and competitive events.</p>
 
 <h4>Mission</h4>
