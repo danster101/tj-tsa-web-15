@@ -27,7 +27,7 @@
 					<div id="new-tjhsst">Welcome to the new TJHSST.</div>
 					<div id="read-more">See what's new in the renovated tech labs &raquo;</div>
 				</li>
-				<li id="spintwo">
+				<li id="spintwo" link="/projects/#spintwo">
 					<img id="spintwo-bg" src="/tsa/images/spintwo-bg.png" />
 					<div id="spintwo-fg">
 						<img id="spintwo-player" src="/tsa/images/spintwo-player.png" />
