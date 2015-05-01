@@ -1,5 +1,9 @@
 <h3>Overview</h3>
 
+<figure float="right" style="width: 100px">
+    <img src="/tsa/images/chapter/clip.jpg" width="100px" />
+</figure>
+
 <p>TJHSST has a unique curriculum that affords students many opportunities to pursue different avenues in scietific and technological reserarch and inquiry.  The majority of Thomas Jefferson's courses, including all of the science and technology courses, are tought at either an honors, Advanced Placement (AP), or post-AP level.  In addition to the Virginia Governer's Diploma requirements, all TJ students are required to have taken either AB or BC Calculus and one year-long Computer Science class to graduate.  There are two other main programs that TJ requires, the freshman-year IBET (Integrated Biology, English, and Technology) program and the Senior Technical Research Laboratory program.</p>
 
 <h3>Integrated Biology, English, and Technology (IBET)</h3>
