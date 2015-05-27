@@ -9,7 +9,7 @@
 			<main>
 				<article>
 					<p>Welcome to TJHSST TSA!</p>
-					<p class="secondary">Here you will find information about our organization, chapter, and school.</p>
+					<p class="secondary no-pm">Here you will find information about our organization, chapter, and school.</p>
 				</article>
 			</main>
 		</div>

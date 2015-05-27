@@ -5,12 +5,13 @@ $secondary-fade: rgba($secondary, .9);
 $white: #FFFFFF;
 $white-light: rgba($white, .1);
 $white-transparent: rgba($white, 0);
-$black: black;
+$black: #000000;
 $black-dark: rgba($black, .9);
 $black-deep: #333333;
 $black-fade: rgba($black, .65);
 $black-transparent: rgba($black, 0);
 $black-light: rgba($black, .1);
+$black-vlight: rgba($black, .08);
 $black-medium: rgba($black, .25);
 $secondary-medium: rgba($secondary, .25);
 $secondary-light: rgba($secondary, .1);
@@ -22,6 +23,10 @@ $transition-medium: 400ms;
 $ease-smooth: cubic-bezier(.5, 0, .5, 1);
 $fade: .65;
 $multipage-transition: 400ms;
+
+$main-width: 74ch;
+$main-horizontal-padding: 4ch;
+$sidebar-width: 28ch;
 
 @mixin aspect-ratio($width, $height) {
 	position: relative;
@@ -66,16 +71,17 @@ h6 {
 }
 
 body {
-	margin-top: 8em;
+	margin-top: 7.2em;
 	-webkit-transition: margin-top $transition-medium;
 	transition: margin-top $transition-medium;
 	display: flex;
 	justify-content: space-between;
 	flex-direction: column;
+	background: $black-vlight;
 
 	&#home {
-		margin-top: calc(8em + 9 / 16 * (70ch + 276px));
-	}
+		margin-top: calc(8.4em + 9/16 * (#{$main-width} + #{$sidebar-width}))
+}
 }
 
 .flex {
@@ -92,8 +98,13 @@ header {
 	left: 0px;
 	right: 0px;
 	padding: .6em calc(50% - 35ch - 138px) .4em;
-	margin-bottom: 2.4em;
+	//	margin-bottom: 2.4em;
 	z-index: 10;
+
+	& + .flex main,
+	& + .flex #sidebar {
+		padding-top: 2.4em;
+	}
 
 	h1 {
 		color: $white;
@@ -137,8 +148,12 @@ header {
 }
 
 main {
-	width: 70ch;
+	width: $main-width;
 	order: 1;
+	background: $white;
+	padding-left: $main-horizontal-padding;
+	padding-right: $main-horizontal-padding / 2;
+	border-radius: .6em 0px 0px .6em;
 
 	article {
 		padding: 1em 0px;
@@ -162,6 +177,10 @@ main {
 			text-indent: .4em;
 		}
 	}
+
+	#home & {
+		//		padding-top: calc(5em + 9 / 16 * (#{$main-width} + #{$sidebar-width}));
+	}
 }
 
 h2 {
@@ -171,12 +190,17 @@ h2 {
 }
 
 #sidebar {
-	width: 260px;
-	margin: 0px 0px 0px 16px;
+	width: $sidebar-width;
+	padding-left: $main-horizontal-padding / 2;
+	padding-right: $main-horizontal-padding;
 	order: 2;
+	background: $white;
+	border-radius: 0px .6em .6em 0px;
 
 	article {
-		padding: 1em;
+		&:last-child {
+			margin-bottom: 1em;
+		}
 
 		h3 {
 			color: $secondary-fade;
@@ -186,6 +210,10 @@ h2 {
 		p {
 			font-size: 1em;
 		}
+	}
+
+	#home & {
+		//		padding-top: calc(5em + 9 / 16 * (#{$main-width} + #{$sidebar-width}));
 	}
 }
 
@@ -421,22 +449,22 @@ nav {
 
 .slider-wrapper {
 	position: absolute;
-	top: 8em;
-	left: calc(50% - 35ch - 138px);
-	width: calc(70ch + 276px);
+	top: 7em;
+	left: calc(50% - (#{$main-width} / 2) - (#{$sidebar-width} / 2));
+width: calc(#{$main-width} + #{$sidebar-width});
 
-	.slider-container {
-		width: 100%;
-		padding-bottom: 56.25%;
+.slider-container {
+	width: 100%;
+	padding-bottom: 56.25%;
 
-		.slider {
-			position: absolute;
-			left: 0px;
-			right: 0px;
-			top: 0px;
-			bottom: 0px;
-		}
+	.slider {
+		position: absolute;
+		left: 0px;
+		right: 0px;
+		top: 0px;
+		bottom: 0px;
 	}
+}
 }
 
 .calenar-container {
@@ -456,13 +484,18 @@ nav {
 }
 
 a {
-	&:link[target=_blank]:after {
-		content: "\f08e";
-		font-family: "fontawesome";
-		font-size: 50%;
-		vertical-align: super;
-		text-decoration: none;
-		margin-left: .2em;
+	&:link[target=_blank] {
+		position: relative;
+
+		&:after {
+			content: "\f08e";
+			font-family: "fontawesome";
+			font-size: 50%;
+			vertical-align: super;
+			text-decoration: none;
+			margin-left: .2em;
+			position: absolute;
+		}
 	}
 
 	&:link,
@@ -512,6 +545,7 @@ footer {
 	-webkit-flex-grow: 1;
 	-ms-flex-positive: 1;
 	flex-grow: 1;
+	margin-top: 1em;
 
 	a:link,
 	a:visited {
@@ -564,7 +598,7 @@ figcaption {
 
 .officer-list {
 	flex-wrap: wrap;
-	
+
 	.officer-listing {
 		width: 30%;
 		margin-bottom: .6em;
@@ -583,4 +617,20 @@ figcaption {
 			margin-left: (.4em * 1.4 / 1.2);
 		}
 	}
+}
+
+.no-pm {
+	padding: 0px;
+	margin: 0px;
+}
+
+img {
+	max-width: 100%;
+}
+
+figure {
+	background: $black-light;
+	padding: 1em;
+	border-radius: .4em;
+	margin: 1em;
 }
