@@ -1,5 +1,9 @@
 <h3>Overview</h3>
 
+<figure float="right" style="width: 100px">
+    <img src="/tsa/images/chapter/clip.jpg" width="100px" />
+</figure>
+
 <p>TJHSST has a unique curriculum that affords students many opportunities to pursue different avenues in scietific and technological reserarch and inquiry.  The majority of Thomas Jefferson's courses, including all of the science and technology courses, are tought at either an honors, Advanced Placement (AP), or post-AP level.  In addition to the Virginia Governer's Diploma requirements, all TJ students are required to have taken either AB or BC Calculus and one year-long Computer Science class to graduate.  There are two other main programs that TJ requires, the freshman-year IBET (Integrated Biology, English, and Technology) program and the Senior Technical Research Laboratory program.</p>
 
 <h3>Integrated Biology, English, and Technology (IBET)</h3>
@@ -12,6 +16,11 @@
 </figure>
 
 <p>In Design and Technology, freshmen learn the basic skills of electronics (breadboarding simple LED and resistor network circuits and measuring voltage with an ohmeter), use a Picaxe Microcontroller to build robots such as "hill climbers" and "maze solvers" in order to win in class competitions, and learn about GPS and GIS systems. Biology honors covers topics ranging from photosynthesis to the human endocrine system, to population growth factors and genetics. English 9 honors is a balance between traditional literary analysis of classic works such as <i>The Odyssey</i> and the development of scientific writing skills such as using primary source documents and interpreting scholarly articles.</p>
+
+<figure float="left" style="width: 200px">
+    <img src="/tsa/images/school/Robo Lab 7 Wheel.PNG" width="200px" />
+    <figcaption>A CAD wheel design for a freshmen robot.</figcaption>
+</figure>
 
 <p>The program's focal point is the IBET Project, a year-long group research and experimentation project in which students work in small (3-4 student) groups to research and perform an experiment on a macro- or micro-invertebrate (such as investigating the effects of caffine on planaria).</p>
 
@@ -33,17 +42,32 @@
 
     <li><b>Advanced Communications Signal Processing</b>: A semester course focusing on applications of Digital Signal Processing with audio, video, and images.</li>
 
+    <figure float="right" style="width: 200px">
+        <img src="/tsa/images/school/Robo Lab 1.png" width="200px" />
+        <figcaption>SquareBot, the first student project in the robotics elective class.</figcaption>
+    </figure>
+
     <li><b>Audio Electronics</b>: A semester course teaching the fundamentals of audio electronics and mixed signal techniques, including amplifiers, filters, digital signal processing, and analog digital conversion.</li>
 
     <li><b>Automation and Robotics 1 (Robot Design and Prototyping)</b>: A semester course exploring the fundamentals of automated and robotic systems with a focus on design and control.</li>
 
     <li><b>Automation and Robotics 2 (Microcontroller Based Systems)</b>: A semester course exploring closed loop microcontroller systems and applications in automation.</li>
 
+    <figure float="left" style="width: 200px">
+        <img src="/tsa/images/school/dot-light.jpg" width="200px" />
+        <figcaption>A student project from the Digial Electronics elective.</figcaption>
+    </figure>
+
     <li><b>Advanced Microprocessor System Design</b>: A semester course in the fundamentals of microprocessor electronics and system development.</li>
 
     <li><b>Advanced Analog Electronics</b>: A semester follow up to the Design and Technology course focusing on linear circuit design.</li>
 
     <li><b>Advanced Digital Electronics</b>: A semester follow-up to the Design and Technology course focusing on digital system design.</li>
+
+    <figure float="right" style="width: 200px">
+        <img src="/tsa/images/school/proto_gears.png" width="200px" />
+        <figcaption>Using a gear simulation software to determine torque.</figcaption>
+    </figure>
 
     <li><b>Advanced Prototyping Processes</b>: A semester introduction to processes in manufacturing, production, and systems engineering.</li>
 
@@ -95,5 +119,5 @@
 </figure>
 
 <p>tjSTAR is an annual event that is hosted at Thomas Jefferson. The school day is divided into 7 sessions where students do a combination of watch other student presentations, present their own projects, view demonstrations, listen to guest presenters and student panels, or participate in design challenges. Many guests including organizations like the CIA and companies like Northrop Grumman, Lockeed Martin, and Ratheon come to demo their new technologies to students.</p>
-    
+
 <p>Freshmen present their IBET projects to a small classroom-sized audience, as do the Seniors with their Senior Research Projects. Any student may present a personal project after approval. The event is student run with administration support, and a tjSTAR committee meets as an extracurricular activity throughout the year to plan the event.</p>
