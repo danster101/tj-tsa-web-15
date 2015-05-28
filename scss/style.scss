@@ -1,5 +1,6 @@
 $primary: #005DAA;
 $primary-fade: rgba($primary, .9);
+$primary-light: rgba($primary, .1);
 $secondary: #EE3524;
 $secondary-fade: rgba($secondary, .9);
 $white: #FFFFFF;
@@ -366,10 +367,12 @@ nav {
 
 [float=left] {
 	float: left;
+	margin-left: 0px;
 }
 
 [float=right] {
 	float: right;
+	margin-right: 0px;
 }
 
 .secondary {
@@ -486,6 +489,7 @@ width: calc(#{$main-width} + #{$sidebar-width});
 a {
 	&:link[target=_blank] {
 		position: relative;
+		padding-right: 1.2ch;
 
 		&:after {
 			content: "\f08e";
@@ -559,11 +563,6 @@ footer {
 	margin: 0px 1em;
 }
 
-figcaption {
-	color: $black-fade;
-	margin-top: .4em;
-}
-
 .awards {
 	-webkit-column-count: 3;
 	-moz-column-count: 3;
@@ -629,8 +628,13 @@ img {
 }
 
 figure {
-	background: $black-light;
+	background: $primary-light;
 	padding: 1em;
 	border-radius: .4em;
 	margin: 1em;
+
+	figcaption {
+		color: $black-dark;
+		margin-top: .4em;
+	}
 }

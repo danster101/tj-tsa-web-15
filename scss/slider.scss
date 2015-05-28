@@ -26,6 +26,10 @@ $transition-slow: 800ms;
 $ease-in-heavy: cubic-bezier(.2, 0, 1, .35);
 $ease-out-heavy: cubic-bezier(0, .2, .35, 1);
 
+.slider {
+	background: $white;
+}
+
 .sequence-canvas {
 	font-family: $body-font-stack;
 
@@ -48,8 +52,6 @@ $ease-out-heavy: cubic-bezier(0, .2, .35, 1);
 
 	.animate-in {
 		&#welcome {
-			background: $white;
-			
 			#tsa-logo {
 				right: 50%;
 			}
@@ -84,7 +86,7 @@ $ease-out-heavy: cubic-bezier(0, .2, .35, 1);
 
 		&#spintwo {
 			#spintwo-bg {
-				right: -5%;
+				right: 0%;
 				opacity: 1;
 			}
 
@@ -133,7 +135,7 @@ $ease-out-heavy: cubic-bezier(0, .2, .35, 1);
 
 		&#spintwo {
 			#spintwo-bg {
-				right: -10%;
+				right: 0%;
 				transition-delay: 600ms;
 			}
 
@@ -153,7 +155,6 @@ $ease-out-heavy: cubic-bezier(0, .2, .35, 1);
 	}
 
 	#welcome {
-		background: $white;
 		transition-duration: 200ms;
 		
 		#tsa-logo {
@@ -240,6 +241,7 @@ $ease-out-heavy: cubic-bezier(0, .2, .35, 1);
 			left: -80%;
 			transition-delay: 300ms;
 			transition-duration: 500ms;
+			width: 100%;
 
 			#spintwo-ground1 {
 				position: absolute;

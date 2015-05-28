@@ -60,3 +60,5 @@ config.codekit
 
 
 .DS_Store
+
+.brackets.json
