@@ -37,6 +37,6 @@
 	<div class="officer-listing">
 		<img src="/tsa/images/chapter/officers/pranay.jpg" />
 		<div class="name">Pranay Singh</div>
-		<div class="position">History</div>
+		<div class="position">Historian</div>
 	</div>
 </div>

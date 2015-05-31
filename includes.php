@@ -4,6 +4,7 @@
 
 	<link rel="stylesheet" type="text/css" href="/tsa/css/reset.css" />
 	<link rel="stylesheet" type="text/css" href="/tsa/css/style.css" />
+	<link rel="stylesheet" type="text/css" href="/tsa/css/lightbox.css" />
 	<link rel="stylesheet" type="text/css" media="screen and (max-device-width: 800px)" href="/tsa/css/mobile.css" />
 
 	<link href="//fonts.googleapis.com/css?family=Martel+Sans:800" rel="stylesheet" type="text/css" />
@@ -13,16 +14,22 @@
 	<link rel="icon" href="/tsa/images/favicon.ico" />
 
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="/tsa/js/html2canvas.js"></script>
+	<script src="/tsa/js/stackblur.js"></script>
 
 	<script src="/tsa/js/header.js"></script>
 	<script src="/tsa/js/links.js"></script>
 	<script src="/tsa/js/tabs.js"></script>
 	<script src="/tsa/js/mobile-nav.js"></script>
+	<script src="/tsa/js/lightbox.js"></script>
 	<script src="/tsa/js/touch-click.js"></script>
 </head>
 <?php } ?>
 
 <?php function make_header($title = "TJHSST TSA"){ ?>
+<div id="image-lightbox">
+	<img />
+</div>
 <header>
 	<img id="header-badge" src="/tsa/images/header-badge.svg" link="/" />
 	<h1><?php print($title); ?></h1>

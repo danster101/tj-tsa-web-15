@@ -6,6 +6,7 @@ $secondary-fade: rgba($secondary, .9);
 $white: #FFFFFF;
 $white-light: rgba($white, .1);
 $white-transparent: rgba($white, 0);
+$white-fade: rgba($white, .65);
 $black: #000000;
 $black-dark: rgba($black, .9);
 $black-deep: #333333;
@@ -563,37 +564,37 @@ footer {
 	margin: 0px 1em;
 }
 
-.awards {
-	-webkit-column-count: 3;
-	-moz-column-count: 3;
-	column-count: 3;
-
-	&>* {
-		//		width: 28%;
-		//		border-radius: .6em;
-		border: 1px solid $black-light;
-		margin: .8em 0px;
-		font-size: .8em;
-		-webkit-column-break-inside: avoid;
-		page-break-inside: avoid;
-		break-inside: avoid;
-
-		h5 {
-			font-size: 1.4em;
-			margin: 0px;
-			//			border-top-left-radius: (.6em / 1.4);
-			//			border-top-right-radius: (.6em / 1.4);
-
-			background: $primary;
-			color: $white;
-			padding: .4em;
-		}
-
-		:not(h5){
-			padding: 0px .4em;
-		}
-	}
-}
+//.awards {
+//	-webkit-column-count: 3;
+//	-moz-column-count: 3;
+//	column-count: 3;
+//
+//	&>* {
+//		//		width: 28%;
+//		//		border-radius: .6em;
+//		border: 1px solid $black-light;
+//		margin: .8em 0px;
+//		font-size: .8em;
+//		-webkit-column-break-inside: avoid;
+//		page-break-inside: avoid;
+//		break-inside: avoid;
+//
+//		h5 {
+//			font-size: 1.4em;
+//			margin: 0px;
+//			//			border-top-left-radius: (.6em / 1.4);
+//			//			border-top-right-radius: (.6em / 1.4);
+//
+//			background: $primary;
+//			color: $white;
+//			padding: .4em;
+//		}
+//
+//		:not(h5){
+//			padding: 0px .4em;
+//		}
+//	}
+//}
 
 .officer-list {
 	flex-wrap: wrap;
@@ -636,5 +637,101 @@ figure {
 	figcaption {
 		color: $black-dark;
 		margin-top: .4em;
+	}
+}
+
+.awards {
+	border-radius: .6em;
+	border: 1px solid $black-light;
+	padding: 3.2em .6em .6em;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-bottom: 1.6em;
+
+	h4 {
+		position: absolute;
+		left: -1px;
+		top: -1px;
+		display: inline-block;
+		background: $primary;
+		color: $white;
+		border-radius: .6em 0px .6em 0px;
+		min-width: 20%;
+		padding: .4em .8em .4em .4em;
+		text-align: center;
+		margin: 0px;
+		
+		a:link,
+		a:visited {
+			color: $white;
+		}
+	}
+}
+
+.award {
+	&:before {
+		opacity: .6;
+		transition-duration: $transition-medium;
+		display: inline-block;
+	}
+
+	&:not([place="Finalist"]) {
+//		order: 0;
+		
+		&:before {
+			content: url(/tsa/images/chapter/awards/trophy.svg);
+			width: 4em;
+		}
+	}
+
+	&[place="Finalist"] {
+		&:nth-child(odd) {
+//			order: -1;
+		}
+		
+		&:nth-child(even) {
+//			order: 1;
+		}
+		
+		&:before {
+			content: url(/tsa/images/chapter/awards/pin.svg);
+			width: 2em;
+		}
+	}
+
+	&:after {
+		position: absolute;
+		left: -1px;
+		right: -1px;
+		bottom: -1px;
+		//		transform: translate(-50%, 20px);
+		content: attr(text);
+		opacity: 0;
+		pointer-events: none;
+		background: $black-fade;
+		color: $white;
+		transition-duration: $transition-medium;
+		width: auto;
+		text-align: center;
+		white-space: pre;
+		padding: .4em;
+		z-index: 3;
+		border-radius: 0px 0px .6em .6em;
+	}
+
+	&:hover {
+		&:before {
+			opacity: 1;
+		}
+
+		&:after {
+			transition-delay: $transition-fast;
+			//			transform: translate(-50%, 0px);
+			opacity: 1;
+			z-index: 3;
+		}
 	}
 }
