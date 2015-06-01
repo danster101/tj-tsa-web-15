@@ -141,22 +141,19 @@ header {
 	}
 }
 
-.return-to-top {filter: alpha(opacity=100);filter: alpha(opacity=NaN);
+.return-to-top {
 	opacity: 0;
-	filter: alpha(opacity=0);
 	pointer-events: none;
 	-webkit-transition-duration: 200ms;
 	transition-duration: 200ms;
 
-	.not-at-top & {filter: alpha(opacity=100);
+	.not-at-top & {
 		opacity: $fade;
-		filter: alpha(opacity=NaN);
 		pointer-events: all;
 		cursor: pointer;
 
 		&:hover {
 			opacity: 1;
-			filter: alpha(opacity=100);
 		}
 	}
 }
@@ -236,7 +233,7 @@ p {
 	color: $black-dark;
 }
 
-nav {filter: alpha(opacity=NaN);filter: alpha(opacity=100);
+nav {
 	font-family: $body-font-stack;
 	font-size: 1em;
 	color: $white;
@@ -251,7 +248,7 @@ nav {filter: alpha(opacity=NaN);filter: alpha(opacity=100);
 		}
 	}
 
-	.multipage & {filter: alpha(opacity=100);
+	.multipage & {
 		color: $black-dark;
 		fill: $black-dark;
 		margin-bottom: 1em;
@@ -259,7 +256,6 @@ nav {filter: alpha(opacity=NaN);filter: alpha(opacity=100);
 
 		ul li.active {
 			opacity: 1;
-			filter: alpha(opacity=100);
 			color: $white;
 
 			-webkit-transition: color $transition-medium $transition-medium, fill $transition-medium $transition-medium;
@@ -276,7 +272,7 @@ nav {filter: alpha(opacity=NaN);filter: alpha(opacity=100);
 		}
 	}
 
-	ul {filter: alpha(opacity=100);filter: alpha(opacity=NaN);
+	ul {
 		list-style-type: none;
 		display: -webkit-box;
 		display: -webkit-flex;
@@ -293,7 +289,7 @@ nav {filter: alpha(opacity=NaN);filter: alpha(opacity=100);
 		margin: 0px;
 		padding: 0px;
 
-		li {filter: alpha(opacity=100);
+		li {
 			margin-right: .8em;
 			padding: .2em .4em;
 			border-radius: .2em;
@@ -312,7 +308,6 @@ nav {filter: alpha(opacity=NaN);filter: alpha(opacity=100);
 			-webkit-transition-duration: $transition-fast;
 			transition-duration: $transition-fast;
 			opacity: $fade;
-			filter: alpha(opacity=NaN);
 
 			@extend .no-select;
 
@@ -332,7 +327,6 @@ nav {filter: alpha(opacity=NaN);filter: alpha(opacity=100);
 
 			&:hover{
 				opacity: 1;
-				filter: alpha(opacity=100);
 				background: $white-light;
 			}
 		}
@@ -351,19 +345,17 @@ nav {filter: alpha(opacity=NaN);filter: alpha(opacity=100);
 	overflow: hidden;
 	text-align: center;
 	opacity: 0;
-	filter: alpha(opacity=0);
 	-webkit-transition-duration: $transition-fast;
 	transition-duration: $transition-fast;
 	-webkit-transition-delay: $transition-fast;
 	transition-delay: $transition-fast;
 }
 
-.multipage {filter: alpha(opacity=0);filter: alpha(opacity=100);
-	.content {filter: alpha(opacity=0);
+.multipage {
+	.content {
 		overflow: hidden;
 		height: auto;
 		opacity: 1;
-		filter: alpha(opacity=100);
 		max-height: 10000000px;
 		-webkit-transition: max-height 0ms $multipage-transition, opacity $multipage-transition $multipage-transition;
 		transition: max-height 0ms $multipage-transition, opacity $multipage-transition $multipage-transition;
@@ -371,7 +363,6 @@ nav {filter: alpha(opacity=NaN);filter: alpha(opacity=100);
 		&.hidden {
 			max-height: 0px;
 			opacity: 0;
-			filter: alpha(opacity=0);
 			-webkit-transition: max-height 0ms $multipage-transition, opacity $multipage-transition 0ms;
 			transition: max-height 0ms $multipage-transition, opacity $multipage-transition 0ms;
 		}
@@ -399,10 +390,9 @@ nav {filter: alpha(opacity=NaN);filter: alpha(opacity=100);
 
 .secondary {
 	opacity: $fade;
-	filter: alpha(opacity=NaN);
 }
 
-.member-info-widget {filter: alpha(opacity=100);filter: alpha(opacity=0);
+.member-info-widget {
 	@include aspect-ratio(4, 3);
 
 	width: 100%;
@@ -411,13 +401,13 @@ nav {filter: alpha(opacity=NaN);filter: alpha(opacity=100);
 	position: relative;
 	overflow: hidden;
 
-	.name-label-container {filter: alpha(opacity=100);filter: alpha(opacity=0);
+	.name-label-container {
 		position: absolute;
 		-webkit-transition: left 400ms 200ms, top 400ms 200ms;
 		transition: left 400ms 200ms, top 400ms 200ms;
 		pointer-events: none;
 
-		.name-label {filter: alpha(opacity=100);
+		.name-label {
 			position: relative;
 			background: $black-fade;
 			color: $white;
@@ -433,14 +423,12 @@ nav {filter: alpha(opacity=NaN);filter: alpha(opacity=100);
 
 			top: 8px;
 			opacity: 0;
-			filter: alpha(opacity=0);
 			-webkit-transition: top $transition-medium 200ms, opacity $transition-medium 200ms;
 			transition: top $transition-medium 200ms, opacity $transition-medium 200ms;
 
 			&.active {
 				top: 0px;
 				opacity: 1;
-				filter: alpha(opacity=100);
 				-webkit-transition: top $transition-medium 800ms, opacity $transition-medium 800ms;
 				transition: top $transition-medium 800ms, opacity $transition-medium 800ms;
 			}
@@ -454,7 +442,7 @@ nav {filter: alpha(opacity=NaN);filter: alpha(opacity=100);
 				border-bottom-color: $black-fade;
 			}
 		}
-	}filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feGaussianBlur stdDeviation="4" /></filter></svg>#filter');
+	}
 
 	img {
 		-webkit-clip-path: circle(100% at center);
@@ -470,10 +458,9 @@ nav {filter: alpha(opacity=NaN);filter: alpha(opacity=100);
 		&.sharp:after {
 			content: attr(data-name);
 			font-family: $body-font-stack;
-		}filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feGaussianBlur stdDeviation="4" /></filter></svg>#filter');
+		}
 
 		&.blur {
-			filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feGaussianBlur stdDeviation="4" /></filter></svg>#filter');
 			filter: blur(4px);
 			-webkit-filter: blur(4px);
 		}
@@ -483,7 +470,7 @@ nav {filter: alpha(opacity=NaN);filter: alpha(opacity=100);
 .slider-wrapper {
 	position: absolute;
 	top: 7em;
-	left: calc(0.5 - (#{$main-width} / 2) - (#{$sidebar-width} / 2));
+	left: calc(50% - (#{$main-width} / 2) - (#{$sidebar-width} / 2));
 width: calc(#{$main-width} + #{$sidebar-width});
 
 .slider-container {
@@ -684,10 +671,9 @@ figure {
 	}
 }
 
-.award {filter: alpha(opacity=100);filter: alpha(opacity=0);filter: alpha(opacity=60);
+.award {
 	&:before {
 		opacity: .6;
-		filter: alpha(opacity=60);
 		-webkit-transition-duration: $transition-medium;
 		transition-duration: $transition-medium;
 		display: inline-block;
@@ -714,7 +700,6 @@ figure {
 		bottom: -1px;
 		content: attr(text);
 		opacity: 0;
-		filter: alpha(opacity=0);
 		pointer-events: none;
 		background: $black-fade;
 		color: $white;
@@ -728,17 +713,15 @@ figure {
 		border-radius: 0px 0px .6em .6em;
 	}
 
-	&:hover {filter: alpha(opacity=100);
+	&:hover {
 		&:before {
 			opacity: 1;
-			filter: alpha(opacity=100);
 		}
 
 		&:after {
 			-webkit-transition-delay: $transition-fast;
 			transition-delay: $transition-fast;
 			opacity: 1;
-			filter: alpha(opacity=100);
 			z-index: 3;
 		}
 	}

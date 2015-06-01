@@ -36,6 +36,7 @@ $ease-out-heavy: cubic-bezier(0, .2, .35, 1);
 	overflow: hidden;
 
 	* {
+		-webkit-transition-duration: $transition-slow;
 		transition-duration: $transition-slow;
 	}
 
@@ -121,14 +122,17 @@ $ease-out-heavy: cubic-bezier(0, .2, .35, 1);
 
 		&#renovation {
 			#tj-reno-sketch{
+				-webkit-transition-delay: 400ms;
 				transition-delay: 400ms;
 			}
 
 			#new-tjhsst {
+				-webkit-transition-delay: 0ms;
 				transition-delay: 0ms;
 			}
 
 			#read-more {
+				-webkit-transition-delay: 0ms;
 				transition-delay: 0ms;
 			}
 		}
@@ -136,32 +140,38 @@ $ease-out-heavy: cubic-bezier(0, .2, .35, 1);
 		&#spintwo {
 			#spintwo-bg {
 				right: 0%;
+				-webkit-transition-delay: 600ms;
 				transition-delay: 600ms;
 			}
 
 			#spintwo-fg {
 				left: 160%;
+				-webkit-transition-delay: 600ms;
 				transition-delay: 600ms;
 			}
 
 			#spintwo-title {
+				-webkit-transition-delay: 0ms;
 				transition-delay: 0ms;
 			}
 
 			#read-more {
+				-webkit-transition-delay: 0ms;
 				transition-delay: 0ms;
 			}
 		}
 	}
 
 	#welcome {
+		-webkit-transition-duration: 200ms;
 		transition-duration: 200ms;
-		
+
 		#tsa-logo {
 			position: absolute;
 			width: 40%;
 			top: 10%;
 			right: 120%;
+			-webkit-transition-delay: 400ms;
 			transition-delay: 400ms;
 		}
 
@@ -171,6 +181,7 @@ $ease-out-heavy: cubic-bezier(0, .2, .35, 1);
 			color: $black-fade;
 			top: 30%;
 			right: 120%;
+			-webkit-transition-delay: 200ms;
 			transition-delay: 200ms;
 		}
 
@@ -179,6 +190,7 @@ $ease-out-heavy: cubic-bezier(0, .2, .35, 1);
 			top: 10%;
 			width: 25%;
 			right: 120%;
+			-webkit-transition-delay: 0ms;
 			transition-delay: 0ms;
 		}
 
@@ -187,6 +199,7 @@ $ease-out-heavy: cubic-bezier(0, .2, .35, 1);
 			bottom: -25%;
 			left: 40%;
 			font-size: 1.6em;
+			-webkit-transition-delay: 800ms;
 			transition-delay: 800ms;
 			background: $secondary;
 			color: $white;
@@ -211,6 +224,7 @@ $ease-out-heavy: cubic-bezier(0, .2, .35, 1);
 			color: $white;
 			font-size: 2em;
 			padding: .2em .4em;
+			-webkit-transition-delay: 200ms;
 			transition-delay: 200ms;
 		}
 
@@ -222,6 +236,7 @@ $ease-out-heavy: cubic-bezier(0, .2, .35, 1);
 			color: $white;
 			font-size: 1.2em;
 			padding: .2em .4em;
+			-webkit-transition-delay: 600ms;
 			transition-delay: 600ms;
 		}
 	}
@@ -239,7 +254,9 @@ $ease-out-heavy: cubic-bezier(0, .2, .35, 1);
 			position: absolute;
 			bottom: 35%;
 			left: -80%;
+			-webkit-transition-delay: 300ms;
 			transition-delay: 300ms;
+			-webkit-transition-duration: 500ms;
 			transition-duration: 500ms;
 			width: 100%;
 
@@ -276,6 +293,7 @@ $ease-out-heavy: cubic-bezier(0, .2, .35, 1);
 			position: absolute;
 			right: 2em;
 			top: -30%;
+			-webkit-transition-delay: 800ms;
 			transition-delay: 800ms;
 			width: 40%;
 		}
@@ -288,6 +306,7 @@ $ease-out-heavy: cubic-bezier(0, .2, .35, 1);
 			color: $white;
 			font-size: 1.2em;
 			padding: .2em .4em;
+			-webkit-transition-delay: 1000ms;
 			transition-delay: 1000ms;
 		}
 	}
@@ -303,11 +322,21 @@ $ease-out-heavy: cubic-bezier(0, .2, .35, 1);
 	cursor: pointer;
 	width: 1.4em;
 	height: 1.4em;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
 	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
 	justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
 	align-items: center;
 	z-index: 8;
 	opacity: .4;
+	-webkit-transition-duration: 400ms;
 	transition-duration: 400ms;
 
 	.slider:hover & {

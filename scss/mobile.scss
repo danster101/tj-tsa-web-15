@@ -87,7 +87,7 @@ header {
 		position: relative;
 		top: 1em;
 	}
-	
+
 	.flex {
 		position: relative;
 		z-index: 5;
@@ -132,11 +132,11 @@ header {
 		-webkit-transition-duration: $transition-medium;
 		transition-duration: $transition-medium;
 	}
-	
+
 	&.beginning:before {
 		opacity: 0;
 	}
-	
+
 	&.end:after {
 		opacity: 0;
 	}
@@ -186,7 +186,7 @@ footer {
 	align-items: center;
 	padding-top: 1em;
 	padding-bottom: 1em;
-	
+
 	a {
 		margin-top: .2em;
 	}
