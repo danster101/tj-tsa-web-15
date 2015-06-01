@@ -17,25 +17,25 @@
 		<div class="slider" id="sequence">
 			<ul class="sequence-canvas">
 				<li id="welcome">
-					<img id="tsa-logo" src="/tsa/images/tsa-color.svg" />
-					<img id="tj-logo" src="/tsa/images/tj-logo.jpg" />
-					<img id="cube" src="/tsa/images/cube.png" />
+					<img unenlargeable id="tsa-logo" src="/tsa/images/tsa-color.svg" />
+					<img unenlargeable id="tj-logo" src="/tsa/images/tj-logo.jpg" />
+					<img unenlargeable id="cube" src="/tsa/images/cube.png" />
 					<div id="welcome-text">Welcome to TJHSST TSA</div>
 				</li>
 				<li id="renovation" link="/school/">
-					<img id="tj-reno-sketch" src="/tsa/images/renovation.jpg" />
+					<img unenlargeable id="tj-reno-sketch" src="/tsa/images/renovation.jpg" />
 					<div id="new-tjhsst">Welcome to TJHSST.</div>
 					<div id="read-more">Learn more about who we are and what we do &raquo;</div>
 				</li>
 				<li id="spintwo" link="/projects/#spintwo">
-					<img id="spintwo-bg" src="/tsa/images/spintwo-bg.png" />
+					<img unenlargeable id="spintwo-bg" src="/tsa/images/spintwo-bg.png" />
 					<div id="spintwo-fg">
-						<img id="spintwo-player" src="/tsa/images/spintwo-player.png" />
-						<img id="spintwo-ground1" src="/tsa/images/spintwo-ground.png" />
-						<img id="spintwo-ground2" src="/tsa/images/spintwo-ground.png" />
-						<img id="spintwo-ground3" src="/tsa/images/spintwo-ground.png" />
+						<img unenlargeable id="spintwo-player" src="/tsa/images/spintwo-player.png" />
+						<img unenlargeable id="spintwo-ground1" src="/tsa/images/spintwo-ground.png" />
+						<img unenlargeable id="spintwo-ground2" src="/tsa/images/spintwo-ground.png" />
+						<img unenlargeable id="spintwo-ground3" src="/tsa/images/spintwo-ground.png" />
 					</div>
-					<img id="spintwo-title" src="/tsa/images/spintwo-title.png" />
+					<img unenlargeable id="spintwo-title" src="/tsa/images/spintwo-title.png" />
 					<div id="read-more">Check out a video game made by TJ TSA students &raquo;</div>
 				</li>
 			</ul>

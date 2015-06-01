@@ -43,7 +43,7 @@
 <p>The current TJHSST TSA Chapter was founded in 2012 by Lucas Lin and Kyle Herndon. Danial Hussain and Matthew Savage aided in establishing the chapter and making sure members were ready for the regional, state, and national conferences. The chapter was mostly filled with members who were graduates from the Rachel Carson Middle School TSA Chapter. That year, the chapter had 25 members.</p>
 
 <figure float="right" style="width: 200px">
-    <img src="/tsa/images/chapter/about/florida-nationals-2013.jpg" width="200" style="border-radius: 10000px" />
+    <img src="/tsa/images/chapter/about/florida-nationals-2013.jpg" width="200" />
     <figcaption>The logo of the 2013 National Conference held in Orlando, Florida.</figcaption>
 </figure>
 

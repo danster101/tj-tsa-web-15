@@ -615,6 +615,14 @@ footer {
 
 img {
 	max-width: 100%;
+	
+	&:not([unenlargeable]){
+		cursor: pointer;
+	}
+	
+	&[unenlargeable] {
+		cursor: auto;
+	}
 }
 
 figure {
@@ -622,10 +630,12 @@ figure {
 	padding: 1em;
 	border-radius: .4em;
 	margin: 1em;
+	text-align: center;
 
 	figcaption {
 		color: $black-dark;
 		margin-top: .4em;
+		text-align: center;
 	}
 }
 

@@ -18,7 +18,7 @@
 
 					<p><a target="_black" href="http://a-la-mod.herokuapp.com/"><b>&Agrave; la Mod</b></a> is a modular chat client which focuses on functionality and personalization for all members of a conversation.  The goal of &Agrave; la Mod is to create the perfect chat experience for everyone by allowing them to define how the chat behaves for them instead of vice versa.</p>
 
-					<p>&Agrave; la Mod is curently entered in the Software Development competition for Technosphere 2015.</p>
+					<p>&Agrave; la Mod won 1st place at Technosphere 2015 and is currently entered in the 2015 National Conference.</p>
 
 					<h3>Spintwo<a name="spintwo"></a></h3>
 
@@ -33,7 +33,7 @@
 
 					<p><a target="_black" href="/tsa/ewaste"><b>E-waste</b></a> is this year's design brief for Webmaster, and it brings attention to a major problem facing the world today: the proper recycling of electronics products.  As these decompose slowly and are not environmentally friendly, it is important to find solutions to ensure proper recycling and disposal.</p>
 
-					<p>E-waste is currently entered as part of the Webmaster event at Technosphere 2015.</p>
+					<p>E-waste is currently entered as part of the Webmaster event at the 2015 National Conference, and also was part of a 3rd place submission at Technosphere 2015.</p>
 
 					<h3>htmlearn<a name="htmlearn"></a></h3>
 
@@ -55,7 +55,7 @@
 					<h3><i>Flight Endurance</i> Promotional Graphic<a name="feprographic"></a></h3>
 
 					<figure float="right" style="width: 200px">
-						<img src="/tsa/images/projects/prographics-small.png" width="200px"/>
+						<img src="/tsa/images/projects/prographics.png" width="200px"/>
 						<figcaption>Ellis Tsung's <i>Flight Endurance</i> Promotional Graphic.</figcaption>
 					</figure>
 

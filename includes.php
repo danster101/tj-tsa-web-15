@@ -28,7 +28,7 @@
 
 <?php function make_header($title = "TJHSST TSA"){ ?>
 <div id="image-lightbox">
-	<img />
+	<img unenlargeable />
 </div>
 <header>
 	<img id="header-badge" src="/tsa/images/header-badge.svg" link="/" />

@@ -191,3 +191,10 @@ footer {
 		margin-top: .2em;
 	}
 }
+
+[float] {
+	float: none;
+	clear: both;
+	display: block;
+	width: 100% !important;
+}
